@@ -21,3 +21,27 @@
          url("/static/fonts/Inter-Regular.woff2") format("woff");
     font-weight: 400;
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: local('Roboto'), local('Roboto-Bold'), local('Roboto Bold'),
+         url("/static/fonts/Roboto-Bold.ttf") format("truetype"),
+         url("/static/fonts/Roboto-Bold.woff2") format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local('Roboto'), local('Roboto-Medium'), local('Roboto Medium'),
+         url("/static/fonts/Roboto-Medium.ttf") format("truetype"),
+         url("/static/fonts/Roboto-Medium.woff2") format("woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local('Roboto'), local('Roboto-Regular'), local('Roboto Regular'),
+         url("/static/fonts/Roboto-Regular.ttf") format("truetype"),
+         url("/static/fonts/Roboto-Regular.woff2") format("woff");
+    font-weight: 400;
+}
