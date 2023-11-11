@@ -14,7 +14,6 @@ body {
     margin: 0;
     padding: 0;
     width: 1440px;
-    background-color: #F2F4F7;
 }
 
 header {
@@ -118,6 +117,7 @@ header .contacts a {
     width: 1440px;
     height: 900px;
     background: url("../img/background-main.png") no-repeat right;
+    background-color: #F2F4F7;
 }
 
 .welcome .info {
@@ -296,4 +296,65 @@ footer .world-footer p {
     margin-left: 10px;
     text-align: left;
     color: #FFFFFF;
+}
+
+.development-cycle {
+    display: flex;
+    height: 500px;
+}
+
+.header-used-technologies {
+    width: 600px;
+    height: 104px;
+    margin: 80px 0 0 108px;
+}
+
+.header-used-technologies h2 {
+    font-size: 36px;
+}
+
+.header-used-technologies p {
+    font-size: 15px;
+}
+
+.content-used-technologies {
+    width: 496px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 34px 0 0 108px;
+}
+
+.content-used-technologies h3 {
+    font-size: 20px;
+}
+
+.content-used-technologies p {
+    font-size: 17px;
+}
+
+.list-developments {
+    height: 340px;
+    margin: 80px 0 0 108px;
+}
+
+.list-developments .item {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 12px 0;
+    display: flex;
+}
+
+.list-developments .item a {
+    text-decoration: none;
+}
+
+.list-developments .item a:hover {  
+    font-weight: 600;
+    border-bottom: 1px solid #2D66EE;
+}
+
+.list-developments img {
+    margin-left: 12px;
+    padding: 6px 8.5px;
 }
