@@ -117,6 +117,7 @@ header .contacts a {
 .welcome {
     display: flex;
     flex-direction: column;
+    width: 1440px;
     height: 900px;
     background: url("../img/background-main.png") no-repeat right;
     background-color: #F2F4F7;
