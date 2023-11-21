@@ -13,7 +13,10 @@
 body {
     margin: 0;
     padding: 0;
-    width: 1440px;
+}
+
+.open-menu {
+    display: none;
 }
 
 header {
@@ -114,7 +117,6 @@ header .contacts a {
 .welcome {
     display: flex;
     flex-direction: column;
-    width: 1440px;
     height: 900px;
     background: url("../img/background-main.png") no-repeat right;
     background-color: #F2F4F7;
@@ -128,6 +130,7 @@ header .contacts a {
 }
 
 .welcome .info h2 {
+    margin: 0;
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
@@ -147,12 +150,13 @@ header .contacts a {
     letter-spacing: -0.23999999463558197px;
     text-align: left;
     color: #101828;
+    margin-top: 24px;
 }
 
 .welcome .callback-form {
     width: 676px;
     height: 186px;
-    margin-top: 94px;
+    margin-top: 64px;
     margin-left: 108px;
     padding: 24px;
     border-radius: 12px;
@@ -160,19 +164,17 @@ header .contacts a {
     background-color: #FFFFFF;
 }
 
-.welcome .callback-form .form {
-    width: 628px;
-    height: 58px;
-    gap: 24px;
-}
-
-.welcome .callback-form .form form{
+.welcome .callback-form form{
     display: flex;
     justify-content: space-between;
+    width: 628px;
+    height: 58px;
+    margin-top: 32px;
 }
 
 .welcome .callback-form h3 {
-    width: 600px;
+    margin: 0;
+    width: 500px;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -181,7 +183,7 @@ header .contacts a {
     color: #101828;
 }
 
-.welcome .callback-form .form label {
+.welcome .callback-form label {
     width: 224px;
     height: 54px;
     font-size: 13px;
@@ -192,7 +194,7 @@ header .contacts a {
     color: #667085;
 }
 
-.welcome .callback-form .form .button {
+.welcome .callback-form .button {
     width: 132px;
     height: 58px;
     padding: 11px 24px 11px 24px;
@@ -208,7 +210,7 @@ header .contacts a {
     border: none;
 }
 
-.welcome .callback-form .form .input {
+.welcome .callback-form .input {
     border: none;
     border-bottom: 1px solid #bdbdbd;
     line-height: 1.25;

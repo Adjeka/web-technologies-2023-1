@@ -1,0 +1,95 @@
+@import "./global.css";
+@import "./fonts.css";
+@import "./utils.css";
+
+@media screen and (max-width: 767px) {
+    body, h2, h3, p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .open-menu {
+        display: block;
+    }
+
+    header {
+        width: 409px;
+        height: 90px;
+        margin: 20px 8px 0 8px;
+        padding: 35px 17px;
+    }
+
+    header .contacts {
+        display: none;
+    }
+
+    header .logo {
+        margin-left: 91px;
+        width: 120px;
+        height: 18px;
+        font-size: 20px;
+    }
+
+    .welcome {
+        width: 425px;
+        height: 1267px;
+        background: url("../img/main-mobile.png") no-repeat center top 337px;
+        background-color: #F2F4F7;
+    }
+
+    .welcome .info {
+        margin-left: 24px;
+    }
+
+    .welcome .callback-form {
+        width: 393px;
+        margin-top: 536px;
+        margin-left: 24px;
+        padding: 32px 65px 32px 33px;
+    }
+
+    .development-cycle {
+        height: 824px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .used-technologies {
+        height: 400px;
+    }
+
+    .header-used-technologies h2, .header-used-technologies p, .content-used-technologies, .list-developments {
+        margin: 32px 0 0 17px;
+    }
+
+    .list-developments {
+        height: 340px;
+    }
+
+    footer {
+        width: 425px;
+        height: 350px;
+    }
+
+    footer .items {
+        width: 375px;
+        height: 142px;
+        margin: 52px 0 0 36px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer .items .item p {
+        font-size: 14px;
+    }
+
+    footer .items .item {
+        width: 154px;
+        height: 54px;
+        margin: 0;
+    }
+
+    footer .world-footer {
+        margin-top: 52px;
+    }
+}
