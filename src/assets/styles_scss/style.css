@@ -125,12 +125,6 @@ body {
   color: #2D66EE;
 }
 
-header ul,
-header li {
-  display: inline;
-  list-style-type: none;
-}
-
 .welcome {
   display: flex;
   flex-direction: column;
