@@ -3,7 +3,11 @@
 @import "./utils.css";
 
 @media screen and (max-width: 1439px) {
-    body, h2, h3, p {
+
+    body,
+    h2,
+    h3,
+    p {
         margin: 0;
         padding: 0;
     }
@@ -12,7 +16,75 @@
         display: block;
     }
 
-    header {
+    #opened-menu {
+        text-align: center;
+        position: fixed;
+        z-index: 1;
+        background-color: white;
+        width: 100%;
+        height: 848px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+    }
+
+    #opened-menu a {
+        text-decoration: none;
+        color: #101828;
+    }
+
+    #opened-menu .close-menu {
+        margin-top: 41px;
+        margin-left: 572px;
+    }
+
+    #opened-menu .opened-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 627px;
+        height: 568px;
+        margin-top: 42px;
+        margin-left: 86px;
+    }
+
+    #opened-menu .opened-header span {
+        margin: 0 auto;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    #opened-menu .opened-header span a {
+        color: #2D66EE;
+    }
+
+    #opened-menu .opened-header .opened-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 157px;
+        height: 388px;
+        margin: 0 auto;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    #opened-menu .opened-header .opened-contacts {
+        display: flex;
+        justify-content: space-between;
+        width: 627px;
+        margin: 0 auto;
+    }
+
+    #opened-menu .opened-header .opened-contacts img {
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+    #opened-menu .opened-header .opened-contacts a {
+        color: #2D66EE;
+        font-size: 14px;
+    }
+
+    #main-header {
         display: flex;
         width: 768px;
         height: 90px;
@@ -21,21 +93,22 @@
         padding: 25px 32px;
     }
 
-    header .content, header .contacts .tel {
-        display: none;
-    }
-
-    header .logo {
+    #main-header .logo {
         margin: auto;
         margin-left: 233px;
         width: 120px;
         height: 24px;
     }
 
-    header .contacts {
+    #main-header .contacts {
         width: 174px;
         height: 24px;
         margin-top: 8px;
+    }
+
+    #main-header .content,
+    #main-header .contacts .tel {
+        display: none;
     }
 
     .welcome {
@@ -78,7 +151,7 @@
         width: 295px;
         font-size: 16px;
     }
-    
+
     .welcome .callback-form label {
         width: 224px;
         height: 54px;
@@ -89,13 +162,13 @@
         text-align: left;
         color: #667085;
     }
-    
+
     .welcome .callback-form .button {
         width: 155px;
         height: 40px;
         padding: 11px 19px 11px 24px;
     }
-    
+
     .welcome .callback-form .input {
         border: none;
         border-bottom: 1px solid #bdbdbd;
@@ -132,7 +205,7 @@
         height: 244px;
         margin: 32px 0 0 33px;
     }
-    
+
     .content-used-technologies p {
         width: 265px;
         height: 66px;
@@ -143,7 +216,8 @@
         text-align: left;
     }
 
-    .content-used-technologies-web, .content-used-technologies-mobile {
+    .content-used-technologies-web,
+    .content-used-technologies-mobile {
         display: flex;
         flex-direction: column;
         justify-content: space-between;

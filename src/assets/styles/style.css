@@ -2,27 +2,21 @@
 @import "./fonts.css";
 @import "./utils.css";
 
-.test {
-    color: yellow !important;
-}
-
-.test {
-    color: red !important;
-}
-
 body {
     margin: 0;
     padding: 0;
 }
 
-.open-menu {
+.open-menu,
+#opened-menu {
     display: none;
 }
 
-header {
+#main-header {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    z-index: 1;
     width: 1124px;
     height: 56px;
     margin-top: 24px;
@@ -30,10 +24,10 @@ header {
     border-radius: 12px;
     padding: 16px 24px;
     background: #FFFFFF;
-    box-shadow: 0px 2px 4px 0px #00000014;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.0784313725);
 }
 
-header .logo a {
+#main-header .logo a {
     font: Inter;
     font-weight: 700;
     font-size: 20px;
@@ -43,17 +37,12 @@ header .logo a {
     color: #2D66EE;
 }
 
-header a {
+#main-header a {
     text-decoration: none;
     color: #101828;
 }
 
-header ul, header li {
-    display: inline;
-    list-style-type: none;
-}
-
-header .content {
+#main-header .content {
     display: flex;
     justify-content: space-between;
     width: 324px;
@@ -64,7 +53,7 @@ header .content {
     letter-spacing: -0.15px;
 }
 
-header .contacts {
+#main-header .contacts {
     display: flex;
     justify-content: space-between;
     width: 472px;
@@ -75,42 +64,42 @@ header .contacts {
     letter-spacing: -0.15px;
 }
 
-header .contacts .tel {
+#main-header .contacts .tel {
     display: flex;
     justify-content: space-between;
     width: 266px;
     height: 24px;
 }
 
-header .contacts .tel img {
+#main-header .contacts .tel img {
     width: 13.8px;
     height: 19.8px;
     top: 2.1px;
     left: 5.1px;
 }
 
-header .contacts .tel .ul-tel {
+#main-header .contacts .tel .ul-tel {
     display: flex;
     justify-content: space-between;
     width: 234px;
     height: 18px;
 }
 
-header .contacts .mail {
+#main-header .contacts .mail {
     display: flex;
     justify-content: space-between;
     width: 174px;
     height: 24px;
 }
 
-header .contacts .mail img {
+#main-header .contacts .mail img {
     width: 19.8px;
     height: 15.8px;
     top: 4.1px;
     left: 2.1px;
 }
 
-header .contacts a {
+#main-header .contacts a {
     color: #2D66EE;
 }
 
@@ -165,7 +154,7 @@ header .contacts a {
     background-color: #FFFFFF;
 }
 
-.welcome .callback-form form{
+.welcome .callback-form form {
     display: flex;
     justify-content: space-between;
     width: 628px;
@@ -261,7 +250,7 @@ footer .items .item {
     justify-content: space-between;
 }
 
-footer .items .item span p{
+footer .items .item span p {
     display: inline;
     font-size: 14px;
     font-weight: 500;
@@ -278,7 +267,7 @@ footer .items .item p {
     line-height: 22px;
     letter-spacing: -0.40799999237060547px;
     text-align: left;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 footer img {
@@ -352,7 +341,7 @@ footer .world-footer p {
     text-decoration: none;
 }
 
-.list-developments .item a:hover {  
+.list-developments .item a:hover {
     font-weight: 600;
     border-bottom: 1px solid #2D66EE;
 }

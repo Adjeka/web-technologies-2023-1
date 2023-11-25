@@ -8,11 +8,23 @@
     <link rel="stylesheet" media="screen and (max-width: 1439px)" href="src/assets/styles/tablet.css">
     <link rel="stylesheet" media="screen and (max-width: 767px)" href="src/assets/styles/mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        function openMenu() {
+            document.getElementById("opened-menu").style.display = "block";
+            document.getElementById("main-header").style.display = "none";
+        };
+
+        function closeMenu() {
+            document.getElementById("opened-menu").style.display = "none";
+            document.getElementById("main-header").style.display = "flex";
+        };
+    </script>
 </head>
 
 <body>
-    <header>
-        <img class="open-menu" src="./src/assets/img/open-menu.png" alt="open-menu">
+    <header id="main-header">
+        <img class="open-menu" src="./src/assets/img/open-menu.png" alt="open-menu" onclick="openMenu()">
         <span class="logo"><a href="index.html">IT WEBSITE</a></span>
         <div class="content">
             <a href="#">Services</a>
@@ -35,7 +47,33 @@
             </div>
         </div>
     </header>
-
+    <div id="opened-menu">
+        <img class="close-menu" src="./src/assets/img/close-menu.png" alt="close-menu" onclick="closeMenu()">
+        <div class="opened-header">
+            <span class="opened-logo"><a href="index.html">IT WEBSITE</a></span>
+            <div class="opened-content">
+                <a href="#">Services</a>
+                <a href="#">Media</a>
+                <a href="#">Cases</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contacts</a>
+            </div>
+            <div class="opened-contacts">
+                <div class="first-tel">
+                    <img src="./src/assets/img/logo-tel.png" alt="logo-tel">
+                    <a href="tel:+791111111111">+7 (111) 111 11 11</a>
+                </div>
+                <div class="second-tel">
+                    <img src="./src/assets/img/logo-tel.png" alt="logo-tel">
+                    <a href="tel:+791111111111">+7 (111) 111 11 11</a>
+                </div>
+                <div class="mail">
+                    <img src="./src/assets/img/logo-mail.png" alt="logo-mail">
+                    <a href="mailto:itcompany@mail.com">itcompany@mail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="welcome">
         <div class="info">
             <h2>Development of <span>mobile applications</span> and <span>web services</span> of any complexity</h2>

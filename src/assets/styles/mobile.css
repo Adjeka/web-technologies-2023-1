@@ -3,7 +3,11 @@
 @import "./utils.css";
 
 @media screen and (max-width: 767px) {
-    body, h2, h3, p {
+
+    body,
+    h2,
+    h3,
+    p {
         margin: 0;
         padding: 0;
     }
@@ -12,18 +16,75 @@
         display: block;
     }
 
-    header {
+    #open-menu {
+        display: block;
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #open-menu img {
+        width: 40px;
+        height: 20px;
+    }
+
+    #opened-menu {
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        height: 642px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+    }
+
+    #opened-menu .close-menu {
+        margin-top: 21px;
+        margin-left: 249px;
+    }
+
+    #opened-menu .opened-header {
+        width: 174px;
+        height: 485px;
+        margin-top: 17px;
+        margin-left: 126px;
+    }
+
+    #opened-menu .opened-header span {
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    #opened-menu .opened-header span a {
+        color: #2D66EE;
+    }
+
+    #opened-menu .opened-header .opened-content {
+        width: 105px;
+        height: 259px;
+        margin: 0 auto;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    #opened-menu .opened-header .opened-contacts {
+        flex-direction: column;
+        width: 174px;
+        height: 104px;
+    }
+
+    #main-header {
         width: 409px;
         height: 90px;
         margin: 20px 8px 0 8px;
         padding: 35px 17px;
     }
 
-    header .contacts {
+    #main-header .contacts {
         display: none;
     }
 
-    header .logo {
+    #main-header .logo {
         margin-left: 91px;
         width: 120px;
         height: 18px;
@@ -58,7 +119,10 @@
         height: 400px;
     }
 
-    .header-used-technologies h2, .header-used-technologies p, .content-used-technologies, .list-developments {
+    .header-used-technologies h2,
+    .header-used-technologies p,
+    .content-used-technologies,
+    .list-developments {
         margin: 32px 0 0 17px;
     }
 
