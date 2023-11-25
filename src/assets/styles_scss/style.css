@@ -424,7 +424,10 @@ body {
   background-color: #2D66EE;
 }
 .list-industries .projects .content {
+  background: url("../img/i-teka.png") no-repeat top right;
   margin-top: 40px;
+  width: 1224px;
+  height: 449px;
 }
 .list-industries .projects .content h2 {
   font-family: Inter, sans-serif;
@@ -436,6 +439,9 @@ body {
   color: #101828;
 }
 .list-industries .projects .content .main-content {
+  margin-top: 32px;
+  width: 600px;
+  height: 365px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -460,6 +466,288 @@ body {
 }
 .list-industries .projects .content .main-content .developments span {
   color: #2D66EE;
+}
+.list-industries .projects .content .main-content .location-industry {
+  width: 239px;
+  display: flex;
+  justify-content: space-between;
+}
+.list-industries .projects .content .main-content .location-industry div {
+  width: 112px;
+  display: flex;
+}
+.list-industries .projects .content .main-content .location-industry div p {
+  margin-left: 8px;
+  margin-top: 2px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.2399999946px;
+  text-align: left;
+  color: #101828;
+}
+.list-industries .projects .content .main-content .users {
+  width: 252px;
+  height: 59px;
+  display: flex;
+  justify-content: space-between;
+}
+.list-industries .projects .content .main-content .users .user-growth,
+.list-industries .projects .content .main-content .users .active-users {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list-industries .projects .content .main-content .users .user-growth .number,
+.list-industries .projects .content .main-content .users .active-users .number {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.3264510036px;
+  text-align: left;
+  color: #101828;
+}
+.list-industries .projects .content .main-content .users .user-growth .label,
+.list-industries .projects .content .main-content .users .active-users .label {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.0780000016px;
+  text-align: left;
+  color: #667085;
+}
+.list-industries .projects .content .main-content .download {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 40px;
+}
+
+.discuss {
+  width: 1440px;
+  height: 350px;
+  background: url("../img/discuss-2.png") no-repeat;
+  background-color: #2D66EE;
+}
+.discuss div {
+  width: 1224px;
+  height: 190px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 80px;
+}
+.discuss div .discription {
+  width: 600px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+.discuss div .discription h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.3264510036px;
+  text-align: left;
+}
+.discuss div .discription p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.discuss div .discuss-form {
+  width: 600px;
+  height: 190px;
+  top: 80.2px;
+  left: 732px;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+}
+.discuss div .discuss-form .inputs {
+  margin: 0;
+  width: 552px;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+}
+.discuss div .discuss-form .inputs .input {
+  width: 264px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  line-height: 1.25;
+  padding: 10px 10px 10px 0px;
+}
+.discuss div .discuss-form .inputs label {
+  width: 264px;
+  height: 78px;
+  margin-top: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.0780000016px;
+  text-align: left;
+  color: #667085;
+}
+.discuss div .discuss-form .button {
+  width: 178px;
+  height: 40px;
+  float: right;
+  margin-top: 24px;
+  margin-right: 24px;
+  padding: 11px, 24px, 11px, 24px;
+  border-radius: 8px;
+  background-color: #2D66EE;
+  border: none;
+  color: #FFFFFF;
+}
+
+.application-developments-stages div {
+  width: 1440px;
+  height: 810px;
+  background-color: #FFFFFF;
+}
+.application-developments-stages div h2 {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 108px;
+  width: 708px;
+  height: 132px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: bottom;
+  color: #101828;
+}
+.application-developments-stages div .cards {
+  margin: auto;
+  margin-top: 34px;
+  width: 1224px;
+  height: 564px;
+  display: flex;
+  justify-content: space-between;
+}
+.application-developments-stages div .cards .group-cards {
+  margin: 0;
+  width: 392px;
+  height: 564px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.application-developments-stages div .cards .group-cards .card {
+  box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.0784313725);
+  width: 392px;
+  height: 172px;
+  padding: 24px 24px 0 24px;
+}
+.application-developments-stages div .cards .group-cards .card .logo {
+  display: flex;
+  width: 200px;
+  height: 48px;
+}
+.application-developments-stages div .cards .group-cards .card .logo h3 {
+  margin: 12px 0 12px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3799999952px;
+  text-align: left;
+  color: #101828;
+}
+.application-developments-stages div .cards .group-cards .card p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.2399999946px;
+  text-align: left;
+  color: #101828;
+}
+
+.our-team {
+  width: 1440px;
+  height: 420px;
+}
+.our-team div {
+  width: 1224px;
+  height: 420px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.our-team div .discription {
+  margin: 0;
+  width: 600px;
+  height: 341px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.our-team div .discription h2 {
+  margin: 0;
+  height: 52px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.3264510036px;
+  text-align: left;
+  color: #101828;
+}
+.our-team div .discription p {
+  margin: 0;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.2399999946px;
+  text-align: left;
+  color: #101828;
+}
+.our-team div .discription .items {
+  margin: 0;
+  width: 600px;
+  height: 113px;
+  justify-content: space-between;
+}
+.our-team div .discription .items .item {
+  width: 188px;
+  height: 97px;
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.our-team div .discription .items .item span {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: 0.3264510036px;
+  text-align: left;
+  color: #101828;
+}
+.our-team div .discription .items .item p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.2399999946px;
+  text-align: left;
+  color: #667085;
+}
+.our-team div .background-image {
+  margin: 0;
+  width: 600px;
+}
+
+.get-book {
+  width: 1440px;
+  height: 585px;
 }
 
 footer {

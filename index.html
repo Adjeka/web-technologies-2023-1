@@ -214,22 +214,22 @@
                         <p>Business analysis <span>/</span> iOS <span>/</span> Android <span>/</span> QA <span>/</span> UI/UX Design</p>
                     </div>
                     <div class="location-industry">
-                        <ul>
-                            <li><img src="" alt="logo"> Kazakhstan</li>
-                            <li><img src="" alt="logo"> Medicine</li>
-                        </ul>
+                        <div><img src="src/assets/img/place.png" alt="place"> <p>Kazakhstan</p></div>
+                        <div><img src="src/assets/img/work.png" alt="work"> <p>Medicine</p></div>
                     </div>
-                    <div class="user-growth">
-                        <span class="number">400%</span>
-                        <span class="label">User Growth</span>
-                    </div>
-                    <div class="active-users">
-                        <span class="number">+ 200 000</span>
-                        <span class="label">Active Users</span>
+                    <div class="users">
+                        <div class="user-growth">
+                            <span class="number">400%</span>
+                            <span class="label">User Growth</span>
+                        </div>
+                        <div class="active-users">
+                            <span class="number">+ 200 000</span>
+                            <span class="label">Active Users</span>
+                        </div>
                     </div>
                     <div class="download">
-                        <img src="" alt="appstore">
-                        <img src="" alt="googleplay">
+                        <img src="src/assets/img/app-store.png" alt="appstore">
+                        <img src="src/assets/img/google-play.png" alt="googleplay">
                     </div>
                 </div>
             </div>
@@ -237,94 +237,118 @@
     </section>
     
     <section class="discuss">
-        <div class="discription">
-            <h2>Let's discuss<br>
-                Your project</h2>
-            <p>Let's figure out how to create an effective application,<br>
-                its cost and terms of its development</p>
-        </div>
-        <div class="discuss-form">
-            <form action="" name="contact">
-                <label>
-                    Best phone number
-                    <img src="#" alt="logo-country">
-                    <input type="tel" name="phonenumber-discuss">
-                </label>
-                <label>
-                    Full name:
-                    <input class="input" type="text" name="fullname-discuss">
-                </label>
-                <input class="button" type="submit" value="Discuss the project">
-            </form>
+        <div>
+            <div class="discription">
+                <h2>Let's discuss<br>
+                    Your project</h2>
+                <p>Let's figure out how to create an effective application,<br>
+                    its cost and terms of its development</p>
+            </div>
+            <div class="discuss-form">
+                <form action="" name="contact">
+                    <div class="inputs">
+                        <label>
+                            Best phone number
+                            <input class="input" type="tel" name="phonenumber-discuss">
+                        </label>
+                        <label>
+                            Full name
+                            <input class="input" type="text" name="fullname-discuss">
+                        </label>
+                    </div>
+                    <input class="button" type="submit" value="Discuss the project">
+                </form>
+            </div>
         </div>
     </section>
-    <hr>
     <section class="application-developments-stages">
-        <h2>Application Development Stages</h2>
-        <div class="card-analysis">
-            <img src="#" alt="logo">
-            <h3>Analysis</h3>
-            <p>We write technical specifications for development, taking into account the business processes and
-                technologies of the customer and the needs of users.</p>
-        </div>
-        <div class="card-design">
-            <img src="#" alt="logo">
-            <h3>Design</h3>
-            <p>We adapt the customer's corporate identity to the platform guidelines. We draw convenient and
-                understandable interfaces.</p>
-        </div>
-        <div class="card-development">
-            <img src="#" alt="logo">
-            <h3>Development</h3>
-            <p>We create an extensible architecture, write clean and stable code. We integrate with customer
-                technologies.</p>
-        </div>
-        <div class="card-testing">
-            <img src="#" alt="logo">
-            <h3>Testing</h3>
-            <p>We carry out functional testing and do bug fixes. We adapt the application to different phone resolutions
-            </p>
-        </div>
-        <div class="card-launching">
-            <img src="#" alt="logo">
-            <h3>Launching</h3>
-            <p>We design the application page and publish it in the App Store and Google Play stores.</p>
-        </div>
-        <div class="card-support">
-            <img src="#" alt="logo">
-            <h3>Support</h3>
-            <p>We monitor the stability of the application, update it for new devices and versions of iOS and Android.
-            </p>
-        </div>
-    </section>
-    <hr>
-    <section class="our-team">
-        <div class="discription">
-            <h2>Our Team</h2>
-            <p>Thousand is a full-cycle digital production company with its own product analytics, design, web and
-                mobile development.</p>
-            <div class="items">
-                <div class="item">
-                    <span>28</span>
-                    <p>team members</p>
+        <div>
+            <h2>Application Development Stages</h2>
+        <div class="cards">
+            <div class="group-cards">
+                <div class="card">
+                    <div class="logo">
+                        <img src="src/assets/img/analysis.svg" alt="analysis">
+                        <h3>Analysis</h3>
+                    </div>
+                    <p>We write technical specifications for development, taking into account the business processes and
+                        technologies of the customer and the needs of users.</p>
                 </div>
-                <div class="item">
-                    <span>+100</span>
-                    <p>projects</p>
+                <div class="card">
+                    <div class="logo">
+                        <img src="src/assets/img/design.svg" alt="design">
+                        <h3>Design</h3>
+                    </div>
+                    <p>We adapt the customer's corporate identity to the platform guidelines. We draw convenient and
+                        understandable interfaces.</p>
                 </div>
-                <div class="item">
-                    <span>7 years</span>
-                    <p>in IT sphere</p>
+                <div class="card">
+                    <div class="logo">
+                        <img src="src/assets/img/development.svg" alt="development">
+                        <h3>Development</h3>
+                    </div>
+                    <p>We create an extensible architecture, write clean and stable code. We integrate with customer
+                        technologies.</p>
                 </div>
             </div>
-            <p>All the necessary specialists - from a designer to a tester - are on our staff. We hire the best
-                specialists in the market. It's expensive but worth it</p>
+            <div class="group-cards">
+                <div class="card">
+                    <div class="logo">
+                        <img src="src/assets/img/testing.svg" alt="testing">
+                        <h3>Testing</h3>
+                    </div>
+                    <p>We carry out functional testing and do bug fixes. We adapt the application to different phone resolutions
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="logo">
+                        <img src="src/assets/img/launching.svg" alt="launching">
+                        <h3>Launching</h3>
+                    </div>
+                    <p>We design the application page and publish it in the App Store and Google Play stores.</p>
+                </div>
+                <div class="card">
+                    <div class="logo">
+                        <img src="src/assets/img/support.svg" alt="support">
+                        <h3>Support</h3>
+                    </div>
+                    <p>We monitor the stability of the application, update it for new devices and versions of iOS and Android.
+                    </p>
+                </div>
+            </div>
         </div>
-        <img src="#" alt="image-team">
+        </div>
     </section>
-    <hr>
+    <section class="our-team">
+        <div>
+            <div class="discription">
+                <h2>Our Team</h2>
+                <p>Thousand is a full-cycle digital production company with its own product analytics, design, web and
+                    mobile development.</p>
+                <div class="items">
+                    <div class="item">
+                        <span>28</span>
+                        <p>team members</p>
+                    </div>
+                    <div class="item">
+                        <span>+100</span>
+                        <p>projects</p>
+                    </div>
+                    <div class="item">
+                        <span>7 years</span>
+                        <p>in IT sphere</p>
+                    </div>
+                </div>
+                <p>All the necessary specialists - from a designer to a tester - are on our staff. We hire the best
+                    specialists in the market. It's expensive but worth it</p>
+            </div>
+            <div class="background-image">
+                <img src="src/assets/img/our-team.png" alt="image-team">
+            </div>
+        </div>
+    </section>
     <section class="get-book">
-        <h2></h2>
+        <h2>Get the book for free by leaving your contacts</h2>
         <div class="get-book-form">
             <form action="" name="get-book">
                 <label>
