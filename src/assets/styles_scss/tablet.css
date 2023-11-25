@@ -56,6 +56,7 @@ html {
   #opened-menu {
     text-align: center;
     position: fixed;
+    z-index: 1;
     background-color: white;
     width: 100%;
     height: 848px;
@@ -67,7 +68,7 @@ html {
   }
   #opened-menu .close-menu {
     margin-top: 41px;
-    margin-left: 350px;
+    margin-left: 572px;
   }
   #opened-menu .opened-header {
     display: flex;
