@@ -2,17 +2,28 @@
 <html lang="ru">
 
 <head>
-    <title>lesson5</title>
+    <title>lesson6</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="src/assets/styles/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1439px)" href="src/assets/styles/tablet.css">
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="src/assets/styles/mobile.css">
+    <link rel="stylesheet" href="src/assets/styles_scss/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1439px)" href="src/assets/styles_scss/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="src/assets/styles_scss/mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
 
+    <script>
+        function openMenu() {
+            document.getElementById("opened-menu").style.display = "block";
+            document.getElementById("main-header").style.display = "none";
+        };
+
+        function closeMenu() {
+            document.getElementById("opened-menu").style.display = "none";
+            document.getElementById("main-header").style.display = "flex";
+        };
+    </script>
+</head>
 <body>
-    <header>
-        <img class="open-menu" src="./src/assets/img/open-menu.png" alt="open-menu">
+    <header id="main-header">
+        <img class="open-menu" src="./src/assets/img/open-menu.png" alt="open-menu" onclick="openMenu()">
         <span class="logo"><a href="index.html">IT WEBSITE</a></span>
         <div class="content">
             <a href="#">Services</a>
@@ -35,7 +46,33 @@
             </div>
         </div>
     </header>
-
+    <div id="opened-menu">
+        <img class="close-menu" src="./src/assets/img/close-menu.png" alt="close-menu" onclick="closeMenu()">
+        <div class="opened-header">
+            <span class="opened-logo"><a href="index.html">IT WEBSITE</a></span>
+            <div class="opened-content">
+                <a href="#">Services</a>
+                <a href="#">Media</a>
+                <a href="#">Cases</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contacts</a>
+            </div>
+            <div class="opened-contacts">
+                <div class="first-tel">
+                    <img src="./src/assets/img/logo-tel.png" alt="logo-tel">
+                    <a href="tel:+791111111111">+7 (111) 111 11 11</a>
+                </div>
+                <div class="second-tel">
+                    <img src="./src/assets/img/logo-tel.png" alt="logo-tel">
+                    <a href="tel:+791111111111">+7 (111) 111 11 11</a>
+                </div>
+                <div class="mail">
+                    <img src="./src/assets/img/logo-mail.png" alt="logo-mail">
+                    <a href="mailto:itcompany@mail.com">itcompany@mail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="welcome">
         <div class="info">
             <h2>Development of <span>mobile applications</span> and <span>web services</span> of any complexity</h2>
@@ -56,6 +93,10 @@
                 <input class="button" type="submit" value="Get consultation">
             </form>
         </div>
+        <div class="background-image">
+            <div class="left-column"></div>
+            <div class="right-column"></div>
+        </div>
     </section>
     <section class="development-cycle">
         <div class="used-technologies">
@@ -71,20 +112,26 @@
                 </div>
                 <div class="content-used-technologies-mobile">
                     <h3>Mobile</h3>
-                    <p>Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm / Coroutine / RxJava / RxSwift / Unit
+                    <p>Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm / Coroutine / RxJava / RxSwift /
+                        Unit
                         Test / Navigation</p>
                 </div>
             </div>
         </div>
         <div class="list-developments">
             <div class="items">
-                <div class="item"><a>iOS development</a><img src="./src/assets/img/icon-development.png" alt="стрелочка"></div>
-                <div class="item"><a>Android development</a><img src="./src/assets/img/icon-development.png" alt="стрелочка"></div>
-                <div class="item"><a>Web development</a><img src="./src/assets/img/icon-development.png" alt="стрелочка"></div>
-                <div class="item"><a>UI/UX design</a><img src="./src/assets/img/icon-development.png" alt="стрелочка"></div>
+                <div class="item"><a>iOS development</a><img src="./src/assets/img/icon-development.png"
+                        alt="стрелочка"></div>
+                <div class="item"><a>Android development</a><img src="./src/assets/img/icon-development.png"
+                        alt="стрелочка"></div>
+                <div class="item"><a>Web development</a><img src="./src/assets/img/icon-development.png"
+                        alt="стрелочка"></div>
+                <div class="item"><a>UI/UX design</a><img src="./src/assets/img/icon-development.png" alt="стрелочка">
+                </div>
                 <div class="item"><a>Testing</a><img src="./src/assets/img/icon-development.png" alt="стрелочка"></div>
                 <div class="item"><a>Launch</a><img src="./src/assets/img/icon-development.png" alt="стрелочка"></div>
-                <div class="item"><a>IT consulting</a><img src="./src/assets/img/icon-development.png" alt="стрелочка"></div>
+                <div class="item"><a>IT consulting</a><img src="./src/assets/img/icon-development.png" alt="стрелочка">
+                </div>
             </div>
         </div>
     </section>
