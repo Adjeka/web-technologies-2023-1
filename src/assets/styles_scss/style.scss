@@ -13,7 +13,8 @@ body {
     background-color: #F2F4F7;
 }
 
-.open-menu, #opened-menu {
+.open-menu,
+#opened-menu {
     display: none;
 }
 
@@ -319,6 +320,11 @@ body {
 
     p {
         font-size: 17px;
+        color: #475467;
+    }
+
+    span {
+        color: $blueColor;
     }
 }
 
@@ -345,6 +351,168 @@ body {
     img {
         margin-left: 12px;
         padding: 6px 8.5px;
+    }
+}
+
+.list-industries {
+    width: 1440px;
+    height: 1392px;
+
+    h2 {
+        width: 500px;
+        height: 104px;
+        margin-left: 108px;
+        margin-top: 80px;
+        font-family: Inter, sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0.32645100355148315px;
+        text-align: left;
+        color: $darkblueColor;
+
+        span {
+            color: #306FF5;
+        }
+    }
+
+    .items {
+        width: 1223px;
+        height: 280px;
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0 0 108px;
+
+        .group-items {
+            width: 391px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .item {
+                width: 391px;
+                height: 44px;
+                display: flex;
+
+                img {
+                    width: 44px;
+                    height: 44px;
+                }
+
+                p {
+                    margin: 11px 0 11px 16px;
+                    font-size: 17px;
+                    font-weight: 500;
+                    color: $darkblueColor;
+                }
+            }
+        }
+    }
+
+    .projects {
+        margin: auto;
+        margin-top: 120px;
+        width: 1224px;
+        height: 717px;
+
+        h2 {
+            margin: 0;
+            width: 580px;
+            height: 52px;
+            font-family: Inter, sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0.32645100355148315px;
+            text-align: left;
+            color: $darkblueColor;
+        }
+
+        p {
+            margin-top: 24px;
+            width: 580px;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: -0.23999999463558197px;
+            text-align: left;
+            color: $darkblueColor;
+        }
+
+        .list-projects {
+            height: 58px;
+            margin-top: 54px;
+            display: flex;
+
+            p {
+                display: block;
+                width: fit-content;
+                margin: 16px;
+            }
+
+            p:hover {
+                font-weight: 600;
+                border-bottom: 1px solid $blueColor;
+            }
+
+            button {
+                width: 207px;
+                height: 40px;
+                margin-top: 9px;
+                margin-left: 160px;
+                padding: 11px, 24px, 11px, 24px;
+                border-radius: 8px;
+                border: none;
+                color: $whiteColor;
+                background-color: $blueColor;
+            }
+        }
+
+        .content {
+            margin-top: 40px;
+
+            h2 {
+                font-family: Inter, sans-serif;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 52px;
+                letter-spacing: 0.32645100355148315px;
+                text-align: left;
+                color: $darkblueColor;
+            }
+
+            .main-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p {
+                    margin: 0;
+                    width: 580px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: -0.23999999463558197px;
+                    text-align: left;
+                    color: $darkblueColor;
+                }
+    
+                .developments {
+                    p {
+                        font-size: 17px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: -0.40799999237060547px;
+                        text-align: left;
+                        color: #475467;
+                    }
+                    
+                    span {
+                        color: $blueColor;
+                    }
+                }
+            }
+        }
     }
 }
 

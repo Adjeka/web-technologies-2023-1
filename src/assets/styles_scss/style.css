@@ -40,7 +40,8 @@ body {
   background-color: #F2F4F7;
 }
 
-.open-menu, #opened-menu {
+.open-menu,
+#opened-menu {
   display: none;
 }
 
@@ -292,6 +293,10 @@ body {
 }
 .content-used-technologies p {
   font-size: 17px;
+  color: #475467;
+}
+.content-used-technologies span {
+  color: #2D66EE;
 }
 
 .list-developments {
@@ -314,6 +319,147 @@ body {
 .list-developments img {
   margin-left: 12px;
   padding: 6px 8.5px;
+}
+
+.list-industries {
+  width: 1440px;
+  height: 1392px;
+}
+.list-industries h2 {
+  width: 500px;
+  height: 104px;
+  margin-left: 108px;
+  margin-top: 80px;
+  font-family: Inter, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.3264510036px;
+  text-align: left;
+  color: #101828;
+}
+.list-industries h2 span {
+  color: #306FF5;
+}
+.list-industries .items {
+  width: 1223px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 0 108px;
+}
+.list-industries .items .group-items {
+  width: 391px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list-industries .items .group-items .item {
+  width: 391px;
+  height: 44px;
+  display: flex;
+}
+.list-industries .items .group-items .item img {
+  width: 44px;
+  height: 44px;
+}
+.list-industries .items .group-items .item p {
+  margin: 11px 0 11px 16px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #101828;
+}
+.list-industries .projects {
+  margin: auto;
+  margin-top: 120px;
+  width: 1224px;
+  height: 717px;
+}
+.list-industries .projects h2 {
+  margin: 0;
+  width: 580px;
+  height: 52px;
+  font-family: Inter, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.3264510036px;
+  text-align: left;
+  color: #101828;
+}
+.list-industries .projects p {
+  margin-top: 24px;
+  width: 580px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.2399999946px;
+  text-align: left;
+  color: #101828;
+}
+.list-industries .projects .list-projects {
+  height: 58px;
+  margin-top: 54px;
+  display: flex;
+}
+.list-industries .projects .list-projects p {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 16px;
+}
+.list-industries .projects .list-projects p:hover {
+  font-weight: 600;
+  border-bottom: 1px solid #2D66EE;
+}
+.list-industries .projects .list-projects button {
+  width: 207px;
+  height: 40px;
+  margin-top: 9px;
+  margin-left: 160px;
+  padding: 11px, 24px, 11px, 24px;
+  border-radius: 8px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #2D66EE;
+}
+.list-industries .projects .content {
+  margin-top: 40px;
+}
+.list-industries .projects .content h2 {
+  font-family: Inter, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.3264510036px;
+  text-align: left;
+  color: #101828;
+}
+.list-industries .projects .content .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list-industries .projects .content .main-content p {
+  margin: 0;
+  width: 580px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.2399999946px;
+  text-align: left;
+  color: #101828;
+}
+.list-industries .projects .content .main-content .developments p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.4079999924px;
+  text-align: left;
+  color: #475467;
+}
+.list-industries .projects .content .main-content .developments span {
+  color: #2D66EE;
 }
 
 footer {
