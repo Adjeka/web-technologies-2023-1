@@ -23,12 +23,12 @@ body {
     justify-content: space-between;
     position: fixed;
     z-index: 1;
-    width: 1124px;
+    width: 78%; //1124px;
     height: 56px;
     margin-top: 24px;
-    margin-left: 108px;
+    margin-left: 7.5%; //108px;
     border-radius: 12px;
-    padding: 16px 24px;
+    padding: 16px 1.6%; //24px;
     background: $whiteColor;
     box-shadow: 0px 2px 4px 0px #00000014;
 
@@ -38,7 +38,7 @@ body {
             font-weight: 700;
             font-size: 20px;
             line-height: 18px;
-            width: 120px;
+            width: 10.67%; //120px;
             height: 24px;
             color: $blueColor;
         }
@@ -52,7 +52,7 @@ body {
     .content {
         display: flex;
         justify-content: space-between;
-        width: 324px;
+        width: 28.8%; //324px;
         height: 18px;
         font-size: 14px;
         font-weight: 500;
@@ -63,7 +63,7 @@ body {
     .contacts {
         display: flex;
         justify-content: space-between;
-        width: 472px;
+        width: 42%; //472px;
         height: 24px;
         font-size: 14px;
         font-weight: 500;
@@ -134,19 +134,19 @@ body {
 
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100%; //width: 1440px;
     height: 900px;
     position: relative;
     overflow: hidden;
 
     .background-image {
-        width: 778px;
+        width: 54.03%; //width: 778px;
         height: 1150px;
         display: flex;
         position: absolute;
         z-index: -1;
         transform: rotate(-12deg);
-        left: 730px;
+        left: 50.7%; //left: 730px;
         top: -150px;
 
         .left-column {
@@ -170,10 +170,10 @@ body {
     }
 
     .info {
-        width: 600px;
+        width: 41.66%; //600px;
         height: 220px;
         margin-top: 160px;
-        margin-left: 108px;
+        margin-left: 7.5%; //108px;
 
         h2 {
             margin: 0;
@@ -201,11 +201,11 @@ body {
     }
 
     .callback-form {
-        width: 676px;
+        width: 46.94%; //676px;
         height: 186px;
         margin-top: 64px;
-        margin-left: 108px;
-        padding: 24px;
+        margin-left: 7.5%; //108px;
+        padding: 1.6%; //24px;
         border-radius: 12px;
         box-shadow: 0px 0px 24px 0px #00000029;
         background-color: $whiteColor;
@@ -213,14 +213,14 @@ body {
         form {
             display: flex;
             justify-content: space-between;
-            width: 628px;
+            width: 100%; //628px;
             height: 58px;
             margin-top: 32px;
         }
 
         h3 {
             margin: 0;
-            width: 500px;
+            width: 79.62%; //500px;
             font-size: 20px;
             font-weight: 700;
             line-height: 24px;
@@ -230,7 +230,7 @@ body {
         }
 
         label {
-            width: 224px;
+            width: 35.67%; //224px;
             height: 54px;
             font-size: 13px;
             font-weight: 500;
@@ -243,7 +243,7 @@ body {
         .button {
             width: 132px;
             height: 58px;
-            padding: 11px 24px 11px 24px;
+            padding: 11px 24px;
             border-radius: 8px;
             background: $blueColor;
             font-size: 14px;
@@ -257,6 +257,7 @@ body {
         }
 
         .input {
+            width: 100%; //224px;
             border: none;
             border-bottom: 1px solid #bdbdbd;
             line-height: 1.25;
@@ -271,10 +272,14 @@ body {
     background: $whiteColor;
 }
 
+.used-technologies {
+    width: 50%;
+}
+
 .header-used-technologies {
-    width: 600px;
+    width: 83%;//600px;
     height: 104px;
-    margin: 80px 0 0 108px;
+    margin: 80px 0 0 15%;//108px;
 
     h2 {
         font-size: 36px;
@@ -283,14 +288,18 @@ body {
     p {
         font-size: 15px;
     }
+
+    h2, p {
+        margin-left: 0;
+    }
 }
 
 .content-used-technologies {
-    width: 496px;
+    width: 82.66%;//496px;
     height: 200px;
     display: flex;
     flex-direction: column;
-    margin: 34px 0 0 108px;
+    margin-left: 15%;//108px;
 
     h3 {
         font-size: 20px;
@@ -308,7 +317,7 @@ body {
 
 .list-developments {
     height: 340px;
-    margin: 80px 0 0 108px;
+    margin: 80px 0 0 7.5%; //108px;
 
     .item {
         list-style-type: none;

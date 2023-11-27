@@ -62,13 +62,13 @@ html {
   }
   #opened-menu .close-menu {
     margin-top: 21px;
-    margin-left: 249px;
+    margin-left: 58.59%;
   }
   #opened-menu .opened-header {
-    width: 174px;
+    width: 40.94%;
     height: 485px;
     margin-top: 17px;
-    margin-left: 126px;
+    margin-left: 29.65%;
   }
   #opened-menu .opened-header span {
     margin: 0 auto;
@@ -79,7 +79,7 @@ html {
     color: #2D66EE;
   }
   #opened-menu .opened-header .opened-content {
-    width: 105px;
+    width: 60.34%;
     height: 259px;
     margin: 0 auto;
     font-size: 24px;
@@ -87,91 +87,131 @@ html {
   }
   #opened-menu .opened-header .opened-contacts {
     flex-direction: column;
-    width: 174px;
+    width: 100%;
     height: 104px;
   }
   #main-header {
-    width: 409px;
+    width: 96.24%;
     height: 90px;
-    margin: 20px 8px 0 8px;
-    padding: 35px 17px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 35px auto;
   }
   #main-header .contacts {
     display: none;
   }
   #main-header .logo {
-    margin-left: 91px;
-    width: 120px;
+    margin-left: 22.25%;
+    width: 35%;
     height: 18px;
     font-size: 20px;
+    text-align: center;
   }
   .welcome {
-    max-width: 425px;
+    max-width: 100%;
     height: 1267px;
   }
   .welcome .info {
-    margin-left: 24px;
+    width: 90.12%;
+    margin-left: 5.65%;
   }
   .welcome .callback-form {
-    width: 393px;
+    width: 92.47%;
     margin-top: 536px;
-    margin-left: 24px;
-    padding: 32px 65px 32px 33px;
+    margin-left: 5.65%;
+    padding: 7.53% 15.3% 7.5% 7.76%;
+  }
+  .welcome .callback-form h3 {
+    width: 85%;
+  }
+  .welcome .callback-form form {
+    width: 85%;
+  }
+  .welcome .callback-form label {
+    width: 75.93%;
+  }
+  .welcome .callback-form .button {
+    width: 50%;
+    height: -moz-fit-content;
+    height: fit-content;
+    text-align: center;
+  }
+  .welcome .callback-form .input {
+    width: 100%;
   }
   .welcome .background-image {
-    width: 450px;
+    width: 100%;
     height: 800px;
-    left: 70px;
-    top: 350px;
+    left: 12%;
+    top: 27%;
   }
   .welcome .background-image .left-column {
-    width: 235px;
+    width: 52.22%;
     height: 800px;
-    background-size: 235px;
+    background-size: 100%;
   }
   .welcome .background-image .right-column {
-    width: 140px;
+    width: 32.94%;
     height: 800px;
-    background-size: 140px;
+    background-size: 100%;
     left: -40px;
   }
   .development-cycle {
-    height: 824px;
     display: flex;
     flex-direction: column;
+    height: 824px;
   }
   .used-technologies {
     height: 400px;
+    width: 100%;
   }
-  .header-used-technologies h2,
-  .header-used-technologies p,
-  .content-used-technologies,
-  .list-developments {
-    margin: 32px 0 0 17px;
+  .header-used-technologies {
+    margin: 32px 0 0 4%;
+  }
+  .header-used-technologies h2, .header-used-technologies p {
+    margin-left: 0;
+  }
+  .content-used-technologies {
+    margin: 32px 0 0 4%;
+    width: 75.29%;
+  }
+  .content-used-technologies .content-used-technologies-mobile,
+  .content-used-technologies .content-used-technologies-web {
+    width: 100%;
+  }
+  .content-used-technologies .content-used-technologies-mobile p,
+  .content-used-technologies .content-used-technologies-web p {
+    width: 100%;
   }
   .list-developments {
     height: 340px;
+    margin: 32px 0 0 4%;
   }
   footer {
-    width: 425px;
-    height: 350px;
+    height: 82.35%;
+    padding: 0;
   }
-  footer .items {
-    width: 375px;
+  footer .footer {
+    width: 100%;
+    height: 350px;
+    border-radius: 0;
+  }
+  footer .footer .items {
+    width: 88.23%;
     height: 142px;
-    margin: 52px 0 0 36px;
+    margin: 52px 0 0 8.5%;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  footer .items .item {
-    width: 154px;
+  footer .footer .items .item {
+    width: 41%;
     height: 54px;
     margin: 0;
   }
-  footer .items .item p {
+  footer .footer .items .item p {
     font-size: 14px;
   }
-  footer .world-footer {
+  footer .footer .world-footer {
     margin-top: 52px;
   }
 }/*# sourceMappingURL=mobile.css.map */
