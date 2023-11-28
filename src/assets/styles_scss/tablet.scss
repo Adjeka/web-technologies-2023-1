@@ -40,17 +40,17 @@
 
         .close-menu {
             margin-top: 41px;
-            margin-left: 572px;
+            margin-left: 74.48%;//572px;
         }
 
         .opened-header {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            width: 627px;
+            width: 81.64%;//627px;
             height: 568px;
+            margin: auto;
             margin-top: 42px;
-            margin-left: 86px;
 
             span {
                 margin: 0 auto;
@@ -94,15 +94,14 @@
 
     #main-header {
         display: flex;
-        width: 768px;
+        width: 100%;//768px;
         height: 90px;
         margin: 0;
         margin-top: 16px;
-        padding: 25px 32px;
+        padding: 25px 4.16%;//32px;
 
         .logo {
             margin: auto;
-            margin-left: 233px;
             width: 120px;
             height: 24px;
         }
@@ -119,14 +118,14 @@
     }
 
     .welcome {
-        width: 768px;
+        width: 100%;//768px;
         height: 762px;
 
         .info {
-            width: 383px;
+            width: 49.87%;//383px;
             height: 204px;
             margin-top: 138px;
-            margin-left: 32px;
+            margin-left: 4.16%;//32px;
 
             h2 {
                 font-size: 28px;
@@ -136,14 +135,14 @@
         }
 
         .callback-form {
-            width: 382px;
+            width: 49.87%;//383px;
             height: 356px;
             margin-top: 32px;
-            margin-left: 33px;
+            margin-left: 4.3%;//33px;
             padding: 32px;
 
             form {
-                width: 295px;
+                width: 77%;//295px;
                 height: 212px;
                 display: flex;
                 justify-content: space-between;
@@ -151,12 +150,12 @@
             }
 
             h3 {
-                width: 295px;
+                width: 77%;//295px;
                 font-size: 16px;
             }
 
             label {
-                width: 224px;
+                width: 58.48%;//224px;
                 height: 54px;
                 font-size: 13px;
                 font-weight: 500;
@@ -181,40 +180,40 @@
         }
 
         .background-image {
-            width: 450px;
+            width: 58.6%;//450px;
             height: 850px;
-            left: 390px;
+            left: 50.78%;//390px;
             top: -50px;
 
             .left-column {
-                width: 250px;
+                width: 55.55%;//250px;
                 height: 850px;
-                background-size: 250px;
+                background-size: 100%;//250px;
             }
 
             .right-column {
-                width: 150px;
+                width: 33.33%;//150px;
                 height: 850px;
-                background-size: 150px;
-                left: -40px;
+                background-size: 100%;//150px;
+                left: -8.88%;//-40px;
             }
         }
     }
 
     .development-cycle {
         display: flex;
-        height: 531px;
+        height: 500px;
     }
 
     .header-used-technologies {
-        width: 321px;
+        width: 100%;//321px;
         height: 92px;
         margin: 0;
 
         h2 {
             font-size: 28px;
             margin: 32px 0 0 33px;
-            width: 321px;
+            width: 100%;//321px;
         }
 
         p {
@@ -226,12 +225,12 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 320px;
+        width: 100%;//320px;
         height: 244px;
         margin: 32px 0 0 33px;
 
         p {
-            width: 265px;
+            width: 82%;//265px;
             height: 66px;
             font-size: 14px;
             font-weight: 400;
@@ -246,12 +245,331 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 320px;
+        width: 82%;//320px;
         height: 106px;
     }
 
     .list-developments {
-        margin: 156px 0 0 83px;
+        margin: 100px 0 0 83px;
+    }
+
+    .list-industries {
+        width: 100%;
+        height: 1338px;
+
+        h2 {
+            width: 380px;
+            font-size: 28px;
+        }
+
+        .items {
+            width: 601px;
+            height: 457px;
+    
+            .item {
+                width: fit-content;
+            }
+        }
+
+        .projects {
+            width: 92%;
+
+            h2 {
+                width: 600px;
+                font-size: 28px;
+            }
+    
+            p {
+                width: 456px;
+                font-size: 14px;
+            }
+
+            .list-with-button {
+                flex-wrap: wrap;
+                margin-top: 26px;
+
+                .list-projects {
+                    width: 678px;
+                }
+    
+                button {
+                    width: 207px;
+                    margin-left: 65.42%;//531px;
+                }
+            }
+    
+            .content {
+                width: 85%;
+                background-position: bottom right;
+                background-size: 60%;//368px;
+                margin-top: 0;
+    
+                h2 {
+                    font-size: 28px;
+                }
+    
+                .main-content {
+                    width: 100%;//800px
+                    p {
+                        width: 459px;
+                        font-size: 14px;
+                    }
+    
+                    .developments {
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+    
+                    .location-industry {
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+    
+                    .users {
+                        width: 231px;
+    
+                        .number {
+                            font-size: 20px;
+                        }
+
+                        .label {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .discuss {
+        height: 428px;
+    
+        div {
+            width: 600px;
+            height: 374px;
+            flex-direction: column;
+            margin: 0;
+            margin-top: 80px;
+            margin-left: 38px;
+    
+            .discription {
+                width: 344px;
+                margin-top: 22px;
+                margin-left: 38px;
+    
+                h2 {
+                    width: 195px;
+                    font-size: 28px;
+                }
+    
+                p {
+                    width: 344px;
+                    font-size: 14px;
+                }
+            }
+    
+            .discuss-form {
+                width: 600px;
+                margin-top: 32px;
+                padding: 24px;
+    
+                .inputs {
+                    width: 552px;
+                    flex-direction: row;
+    
+                    .input {
+                        width: 264px;
+                    }
+    
+                    label {
+                        width: 264px;
+                    }
+                }
+    
+                .button {
+                    width: 178px;
+                }
+            }
+        }
+    }
+
+    .application-developments-stages {
+        div {
+            height: 1340px;
+    
+            h2 {
+                width: 600px;
+                font-size: 28px;
+                padding-top: 32px;
+                margin-left: 39px;
+            }
+    
+            .cards {
+                width: 673px;
+                height: 1192px;
+                flex-direction: column;
+                margin-left: 39px;
+    
+                .group-cards {
+                    width: 100%;
+                    height: 580px;
+    
+                    .card {
+                        padding: 24px 0 0 24px;
+    
+                        p {
+                            width: 504px;
+                            margin-top: 16px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .our-team {
+        height: 884px;
+    
+        div {
+            width: 704px;
+            height: 794px;
+            margin: auto;
+            margin-top: 38px;
+    
+            .discription {
+                width: 100%;
+                height: 100%;
+    
+                h2 {
+                    height: 40px;
+                    font-size: 28px;
+                }
+    
+                p {
+                    width: 415px;
+                    font-size: 14px;
+                }
+
+                .background-image-tablet {
+                    display: block;
+                    width: 704px;
+                    height: 421px;
+                    margin: 0;
+                }
+    
+                .items {
+                    width: 584px;
+                    margin-left: 32px;
+    
+                    .item {
+                        width: 184px;
+                    }
+                }
+
+                .another-p {
+                    width: 614px;
+                    margin-left: 32px;
+                }
+            }
+    
+            .background-image-desktop {
+                display: none;
+            }
+        }
+    }
+
+    .get-book {
+        
+    
+        div {
+            
+    
+            .get-book-form {
+                
+    
+                h2 {
+                    font-size: 36px;
+
+                }
+    
+                form {
+                    
+    
+                    .inputs {
+                        
+    
+                        .input {
+                            
+                        }
+    
+                        label {
+                            font-size: 13px;
+
+                        }
+    
+                        .email {
+                            
+                        }
+                    }
+    
+                    .button {
+                        
+                    }
+                }
+            }
+    
+            .image {
+                img {
+                    
+                }
+            }
+        }
+    }
+    
+    .faq {
+        
+    
+        h2 {
+            font-size: 36px;
+
+        }
+    
+        .items {
+            
+    
+            .group-items {
+
+    
+                .item {
+
+    
+                    .content {
+
+    
+                        h3 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+    
+                .open-item {
+    
+                    .content {
+    
+                        p {
+                            font-size: 16px;
+                        }
+    
+                        h3 {
+                            
+                        }
+                    }
+                }
+            }
+        }
     }
 
     footer {
@@ -274,15 +592,15 @@
             }
     
             .items {
-                width: 690px;
-                margin: 32px 0 0 56px;
+                width: 89.84%;//690px;
+                margin: 32px 0 0 7.3%;//56px;
     
                 p {
                     font-size: 14px;
                 }
     
                 .item {
-                    width: 176px;
+                    width: 25.5%;//176px;
                     margin-right: 2px;
                 }
             }

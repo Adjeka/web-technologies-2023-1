@@ -95,7 +95,7 @@ body {
 #main-header .contacts .tel {
   display: flex;
   justify-content: space-between;
-  width: 266px;
+  width: 260px;
   height: 24px;
 }
 #main-header .contacts .tel img {
@@ -113,7 +113,7 @@ body {
 #main-header .contacts .mail {
   display: flex;
   justify-content: space-between;
-  width: 174px;
+  width: 160px;
   height: 24px;
 }
 #main-header .contacts .mail img {
@@ -330,13 +330,13 @@ body {
 }
 
 .list-industries {
-  width: 1440px;
+  width: 100%;
   height: 1392px;
 }
 .list-industries h2 {
-  width: 500px;
+  width: 34.72%;
   height: 104px;
-  margin-left: 108px;
+  margin-left: 7.5%;
   margin-top: 80px;
   font-family: Inter, sans-serif;
   font-size: 36px;
@@ -350,17 +350,17 @@ body {
   color: #306FF5;
 }
 .list-industries .items {
-  width: 1223px;
+  width: 84.93%;
   height: 280px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 40px 0 0 108px;
+  margin: 40px 0 0 7.5%;
   gap: 15px;
 }
 .list-industries .items .item {
-  width: 391px;
+  width: 31.97%;
   height: 44px;
   display: flex;
 }
@@ -377,12 +377,12 @@ body {
 .list-industries .projects {
   margin: auto;
   margin-top: 120px;
-  width: 1224px;
+  width: 85%;
   height: 717px;
 }
 .list-industries .projects h2 {
   margin: 0;
-  width: 580px;
+  width: 47.38%;
   height: 52px;
   font-family: Inter, sans-serif;
   font-size: 36px;
@@ -394,7 +394,7 @@ body {
 }
 .list-industries .projects p {
   margin-top: 24px;
-  width: 580px;
+  width: 47.38%;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -402,26 +402,37 @@ body {
   text-align: left;
   color: #101828;
 }
-.list-industries .projects .list-projects {
+.list-industries .projects .list-with-button {
+  width: 100%;
   height: 58px;
+  display: flex;
+  justify-content: space-between;
   margin-top: 54px;
+}
+.list-industries .projects .list-with-button .list-projects {
+  width: 65.44%;
+  height: 58px;
   display: flex;
 }
-.list-industries .projects .list-projects p {
+.list-industries .projects .list-with-button .list-projects div {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.list-industries .projects .list-with-button .list-projects p {
   display: block;
   width: -moz-fit-content;
   width: fit-content;
   margin: 16px;
 }
-.list-industries .projects .list-projects p:hover {
+.list-industries .projects .list-with-button .list-projects p:hover {
   font-weight: 600;
   border-bottom: 1px solid #2D66EE;
 }
-.list-industries .projects .list-projects button {
+.list-industries .projects .list-with-button button {
   width: 207px;
   height: 40px;
   margin-top: 9px;
-  margin-left: 160px;
+  margin-right: 4.57%;
   padding: 11px, 24px, 11px, 24px;
   border-radius: 8px;
   border: none;
@@ -431,7 +442,7 @@ body {
 .list-industries .projects .content {
   background: url("../img/i-teka.png") no-repeat top right;
   margin-top: 40px;
-  width: 1224px;
+  width: 85%;
   height: 449px;
 }
 .list-industries .projects .content h2 {
@@ -445,7 +456,7 @@ body {
 }
 .list-industries .projects .content .main-content {
   margin-top: 32px;
-  width: 600px;
+  width: 49.02%;
   height: 365px;
   display: flex;
   flex-direction: column;
@@ -453,7 +464,7 @@ body {
 }
 .list-industries .projects .content .main-content p {
   margin: 0;
-  width: 580px;
+  width: 96.66%;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -492,7 +503,7 @@ body {
   color: #101828;
 }
 .list-industries .projects .content .main-content .users {
-  width: 252px;
+  width: 42%;
   height: 59px;
   display: flex;
   justify-content: space-between;
@@ -529,13 +540,13 @@ body {
 }
 
 .discuss {
-  width: 1440px;
+  width: 100%;
   height: 350px;
-  background: url("../img/discuss-2.png") no-repeat;
+  background: url("../img/discuss-2.png");
   background-color: #2D66EE;
 }
 .discuss div {
-  width: 1224px;
+  width: 85%;
   height: 190px;
   display: flex;
   justify-content: space-between;
@@ -543,7 +554,7 @@ body {
   margin-top: 80px;
 }
 .discuss div .discription {
-  width: 600px;
+  width: 49.02%;
   height: 168px;
   display: flex;
   flex-direction: column;
@@ -567,30 +578,33 @@ body {
   text-align: left;
 }
 .discuss div .discuss-form {
-  width: 600px;
+  width: 49.02%;
   height: 190px;
   top: 80.2px;
-  left: 732px;
-  padding: 24px;
+  left: 59.8%;
+  padding: 2%;
   border-radius: 12px;
   background-color: #FFFFFF;
 }
+.discuss div .discuss-form form {
+  width: 100%;
+}
 .discuss div .discuss-form .inputs {
   margin: 0;
-  width: 552px;
+  width: 100%;
   height: 78px;
   display: flex;
   justify-content: space-between;
 }
 .discuss div .discuss-form .inputs .input {
-  width: 264px;
+  width: 90%;
   border: none;
   border-bottom: 1px solid #bdbdbd;
   line-height: 1.25;
   padding: 10px 10px 10px 0px;
 }
 .discuss div .discuss-form .inputs label {
-  width: 264px;
+  width: 90%;
   height: 78px;
   margin-top: 12px;
   font-size: 13px;
@@ -601,12 +615,12 @@ body {
   color: #667085;
 }
 .discuss div .discuss-form .button {
-  width: 178px;
+  width: 29.66%;
   height: 40px;
   float: right;
   margin-top: 24px;
-  margin-right: 24px;
-  padding: 11px, 24px, 11px, 24px;
+  margin-right: 4%;
+  padding: 11px auto;
   border-radius: 8px;
   background-color: #2D66EE;
   border: none;
@@ -614,16 +628,15 @@ body {
 }
 
 .application-developments-stages div {
-  width: 1440px;
+  width: 100%;
   height: 810px;
   background-color: #FFFFFF;
 }
 .application-developments-stages div h2 {
   margin: 0;
   padding-top: 80px;
-  padding-left: 108px;
-  width: 708px;
-  height: 132px;
+  margin-left: 7.5%;
+  width: 49.16%;
   font-size: 36px;
   font-weight: 700;
   text-align: left;
@@ -633,14 +646,14 @@ body {
 .application-developments-stages div .cards {
   margin: auto;
   margin-top: 34px;
-  width: 1224px;
+  width: 85%;
   height: 564px;
   display: flex;
   justify-content: space-between;
 }
 .application-developments-stages div .cards .group-cards {
   margin: 0;
-  width: 392px;
+  width: 32%;
   height: 564px;
   display: flex;
   flex-direction: column;
@@ -648,13 +661,13 @@ body {
 }
 .application-developments-stages div .cards .group-cards .card {
   box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.0784313725);
-  width: 392px;
+  width: 100%;
   height: 172px;
-  padding: 24px 24px 0 24px;
+  padding: 6.12% 6.12% 0 6.12%;
 }
 .application-developments-stages div .cards .group-cards .card .logo {
   display: flex;
-  width: 200px;
+  width: 51%;
   height: 48px;
 }
 .application-developments-stages div .cards .group-cards .card .logo h3 {
@@ -676,11 +689,11 @@ body {
 }
 
 .our-team {
-  width: 1440px;
+  width: 100%;
   height: 420px;
 }
 .our-team div {
-  width: 1224px;
+  width: 85%;
   height: 420px;
   margin: 0 auto;
   margin-top: 80px;
@@ -689,7 +702,7 @@ body {
 }
 .our-team div .discription {
   margin: 0;
-  width: 600px;
+  width: 49.02%;
   height: 341px;
   display: flex;
   flex-direction: column;
@@ -697,7 +710,6 @@ body {
 }
 .our-team div .discription h2 {
   margin: 0;
-  height: 52px;
   font-size: 36px;
   font-weight: 700;
   line-height: 52px;
@@ -715,14 +727,17 @@ body {
   text-align: left;
   color: #101828;
 }
+.our-team div .discription .background-image-tablet {
+  display: none;
+}
 .our-team div .discription .items {
   margin: 0;
-  width: 600px;
+  width: 100%;
   height: 113px;
   justify-content: space-between;
 }
 .our-team div .discription .items .item {
-  width: 188px;
+  width: 50%;
   height: 97px;
   margin: 8px 0;
   display: flex;
@@ -745,27 +760,27 @@ body {
   text-align: left;
   color: #667085;
 }
-.our-team div .background-image {
+.our-team div .background-image-desktop {
   margin: 0;
-  width: 600px;
+  width: 49.02%;
 }
 
 .get-book {
-  width: 1440px;
+  width: 100%;
   height: 585px;
-  background: url("../img/get-book.png") no-repeat;
+  background: url("../img/get-book.png");
   background-color: #2D66EE;
   padding-top: 80px;
 }
 .get-book div {
   margin: auto;
-  width: 1224px;
+  width: 85%;
   height: 428px;
   display: flex;
   justify-content: space-between;
 }
 .get-book div .get-book-form {
-  width: 600px;
+  width: 49.02%;
   height: 428px;
   display: flex;
   flex-direction: column;
@@ -781,29 +796,29 @@ body {
   text-align: left;
 }
 .get-book div .get-book-form form {
-  width: 600px;
+  width: 100%;
   height: 284px;
-  padding: 24px;
+  padding: 4%;
   border-radius: 12px;
   box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1607843137);
   background-color: #FFFFFF;
 }
 .get-book div .get-book-form form .inputs {
-  width: 552px;
+  width: 100%;
   height: 172px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .get-book div .get-book-form form .inputs .input {
-  width: 264px;
+  width: 92%;
   border: none;
   border-bottom: 1px solid #bdbdbd;
   line-height: 1.25;
   padding: 10px 10px 10px 0px;
 }
 .get-book div .get-book-form form .inputs label {
-  width: 264px;
+  width: 50%;
   height: 78px;
   margin-top: 12px;
   font-size: 13px;
@@ -814,7 +829,7 @@ body {
   color: #667085;
 }
 .get-book div .get-book-form form .inputs .email {
-  width: 552px;
+  width: 98%;
 }
 .get-book div .get-book-form form .button {
   width: 225px;
@@ -834,15 +849,15 @@ body {
 }
 
 .faq {
-  width: 1440px;
+  width: 100%;
   height: 646px;
   padding-top: 80px;
   background-color: #FFFFFF;
 }
 .faq h2 {
   margin: 0;
-  margin-left: 108px;
-  width: 600px;
+  margin-left: 7.5%;
+  width: 41.66%;
   height: 52px;
   font-size: 36px;
   font-weight: 700;
@@ -854,26 +869,26 @@ body {
 .faq .items {
   display: flex;
   justify-content: space-between;
-  width: 1224px;
+  width: 85%;
   height: 420px;
   gap: 24px;
   margin: auto;
   margin-top: 40px;
 }
 .faq .items .group-items {
-  width: 600px;
+  width: 49.02%;
   height: 420px;
   gap: 16px;
 }
 .faq .items .group-items .item {
-  width: 600px;
+  width: 100%;
   height: 116px;
   border-top: 1px solid #D0D5DD;
   display: flex;
   justify-content: space-between;
 }
 .faq .items .group-items .item .content {
-  width: 524px;
+  width: 87.33%;
 }
 .faq .items .group-items .item .content h3 {
   margin: 0;
@@ -921,10 +936,10 @@ footer .footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 1224px;
+  width: 85%;
   height: 222px;
   margin: auto;
-  padding: 24px;
+  padding: 1.66%;
   border-radius: 12px;
   background-color: #101828;
   box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.0784313725);
@@ -943,12 +958,12 @@ footer .footer h2 {
   color: #FFFFFF;
 }
 footer .footer .items {
-  width: 1176px;
+  width: 96.08%;
   height: 54px;
   display: flex;
 }
 footer .footer .items .item {
-  width: 294px;
+  width: 25%;
   height: 54px;
   display: flex;
   flex-direction: column;

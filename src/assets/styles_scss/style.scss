@@ -73,7 +73,7 @@ body {
         .tel {
             display: flex;
             justify-content: space-between;
-            width: 266px;
+            width: 260px;
             height: 24px;
 
             img {
@@ -94,7 +94,7 @@ body {
         .mail {
             display: flex;
             justify-content: space-between;
-            width: 174px;
+            width: 160px;
             height: 24px;
 
             img {
@@ -342,13 +342,13 @@ body {
 }
 
 .list-industries {
-    width: 1440px;
+    width: 100%;//1440px;
     height: 1392px;
 
     h2 {
-        width: 500px;
+        width: 34.72%;//500px;
         height: 104px;
-        margin-left: 108px;
+        margin-left: 7.5%;//108px;
         margin-top: 80px;
         font-family: Inter, sans-serif;
         font-size: 36px;
@@ -364,17 +364,17 @@ body {
     }
 
     .items {
-        width: 1223px;
+        width: 84.93%;//1223px;
         height: 280px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: 40px 0 0 108px;
+        margin: 40px 0 0 7.5%;//108px;
         gap: 15px;
 
         .item {
-            width: 391px;
+            width: 31.97%;//391px;
             height: 44px;
             display: flex;
 
@@ -395,12 +395,12 @@ body {
     .projects {
         margin: auto;
         margin-top: 120px;
-        width: 1224px;
+        width: 85%;//1224px;
         height: 717px;
 
         h2 {
             margin: 0;
-            width: 580px;
+            width: 47.38%;//580px;
             height: 52px;
             font-family: Inter, sans-serif;
             font-size: 36px;
@@ -413,7 +413,7 @@ body {
 
         p {
             margin-top: 24px;
-            width: 580px;
+            width: 47.38%;//580px;
             font-size: 15px;
             font-weight: 500;
             line-height: 20px;
@@ -422,27 +422,39 @@ body {
             color: $darkblueColor;
         }
 
-        .list-projects {
+        .list-with-button {
+            width: 100%;
             height: 58px;
-            margin-top: 54px;
             display: flex;
+            justify-content: space-between;
+            margin-top: 54px;
 
-            p {
-                display: block;
-                width: fit-content;
-                margin: 16px;
+            .list-projects {
+                width: 65.44%;//801px;
+                height: 58px;
+                display: flex;
+
+                div {
+                    width: fit-content;
+                }
+    
+                p {
+                    display: block;
+                    width: fit-content;
+                    margin: 16px;
+                }
+    
+                p:hover {
+                    font-weight: 600;
+                    border-bottom: 1px solid $blueColor;
+                }
             }
-
-            p:hover {
-                font-weight: 600;
-                border-bottom: 1px solid $blueColor;
-            }
-
+    
             button {
                 width: 207px;
                 height: 40px;
                 margin-top: 9px;
-                margin-left: 160px;
+                margin-right: 4.57%;//54px;
                 padding: 11px, 24px, 11px, 24px;
                 border-radius: 8px;
                 border: none;
@@ -454,7 +466,7 @@ body {
         .content {
             background: url("../img/i-teka.png") no-repeat top right;
             margin-top: 40px;
-            width: 1224px;
+            width: 85%;//1224px;
             height: 449px;
 
             h2 {
@@ -469,7 +481,7 @@ body {
 
             .main-content {
                 margin-top: 32px;
-                width: 600px;
+                width: 49.02%;//600px;
                 height: 365px;
                 display: flex;
                 flex-direction: column;
@@ -477,7 +489,7 @@ body {
 
                 p {
                     margin: 0;
-                    width: 580px;
+                    width: 96.66%;//580px;
                     font-size: 15px;
                     font-weight: 400;
                     line-height: 20px;
@@ -524,7 +536,7 @@ body {
                 }
 
                 .users {
-                    width: 252px;
+                    width: 42%;//252px;
                     height: 59px;
                     display: flex;
                     justify-content: space-between;
@@ -567,13 +579,13 @@ body {
 }
 
 .discuss {
-    width: 1440px;
+    width: 100%;//1440px;
     height: 350px;
-    background: url("../img/discuss-2.png") no-repeat;
+    background: url("../img/discuss-2.png");
     background-color: $blueColor;
 
     div {
-        width: 1224px;
+        width: 85%;//1224px;
         height: 190px;
         display: flex;
         justify-content: space-between;
@@ -581,7 +593,7 @@ body {
         margin-top: 80px;
 
         .discription {
-            width: 600px;
+            width: 49.02%;//600px;
             height: 168px;
             display: flex;
             flex-direction: column;
@@ -608,23 +620,27 @@ body {
         }
 
         .discuss-form {
-            width: 600px;
+            width: 49.02%;//600px;
             height: 190px;
             top: 80.2px;
-            left: 732px;
-            padding: 24px;
+            left: 59.8%;//732px;
+            padding: 2%;//24px;
             border-radius: 12px;
             background-color: $whiteColor;
 
+            form {
+                width: 100%;
+            }
+
             .inputs {
                 margin: 0;
-                width: 552px;
+                width: 100%;//552px;
                 height: 78px;
                 display: flex;
                 justify-content: space-between;
 
                 .input {
-                    width: 264px;
+                    width: 90%;//264px;
                     border: none;
                     border-bottom: 1px solid #bdbdbd;
                     line-height: 1.25;
@@ -632,7 +648,7 @@ body {
                 }
 
                 label {
-                    width: 264px;
+                    width: 90%;//264px;
                     height: 78px;
                     margin-top: 12px;
                     font-size: 13px;
@@ -645,12 +661,12 @@ body {
             }
 
             .button {
-                width: 178px;
+                width: 29.66%;//178px;
                 height: 40px;
                 float: right;
                 margin-top: 24px;
-                margin-right: 24px;
-                padding: 11px, 24px, 11px, 24px;
+                margin-right: 4%;//24px;
+                padding: 11px auto;
                 border-radius: 8px;
                 background-color: $blueColor;
                 border: none;
@@ -662,16 +678,15 @@ body {
 
 .application-developments-stages {
     div {
-        width: 1440px;
+        width: 100%;//1440px;
         height: 810px;
         background-color: $whiteColor;
 
         h2 {
             margin: 0;
             padding-top: 80px;
-            padding-left: 108px;
-            width: 708px;
-            height: 132px;
+            margin-left: 7.5%;//108px;
+            width: 49.16%;//708px;
             font-size: 36px;
             font-weight: 700;
             text-align: left;
@@ -682,14 +697,14 @@ body {
         .cards {
             margin: auto;
             margin-top: 34px;
-            width: 1224px;
+            width: 85%;//1224px;
             height: 564px;
             display: flex;
             justify-content: space-between;
 
             .group-cards {
                 margin: 0;
-                width: 392px;
+                width: 32%;//392px;
                 height: 564px;
                 display: flex;
                 flex-direction: column;
@@ -697,13 +712,13 @@ body {
 
                 .card {
                     box-shadow: 0px 2px 24px 0px #00000014;
-                    width: 392px;
+                    width: 100%;//392px;
                     height: 172px;
-                    padding: 24px 24px 0 24px;
+                    padding: 6.12% 6.12% 0 6.12%;//24px 24px 0 24px;
 
                     .logo {
                         display: flex;
-                        width: 200px;
+                        width: 51%;//200px;
                         height: 48px;
 
                         h3 {
@@ -732,11 +747,11 @@ body {
 }
 
 .our-team {
-    width: 1440px;
+    width: 100%;//1440px;
     height: 420px;
 
     div {
-        width: 1224px;
+        width: 85%;//1224px;
         height: 420px;
         margin: 0 auto;
         margin-top: 80px;
@@ -745,7 +760,7 @@ body {
 
         .discription {
             margin: 0;
-            width: 600px;
+            width: 49.02%;//600px;
             height: 341px;
             display: flex;
             flex-direction: column;
@@ -753,7 +768,6 @@ body {
 
             h2 {
                 margin: 0;
-                height: 52px;
                 font-size: 36px;
                 font-weight: 700;
                 line-height: 52px;
@@ -773,15 +787,19 @@ body {
                 color: $darkblueColor;
             }
 
+            .background-image-tablet {
+                display: none;
+            }
+
             .items {
                 margin: 0;
-                width: 600px;
+                width: 100%;//600px;
                 height: 113px;
                 justify-content: space-between;
 
 
                 .item {
-                    width: 188px;
+                    width: 50%;//188px;
                     height: 97px;
                     margin: 8px 0;
                     display: flex;
@@ -809,29 +827,29 @@ body {
             }
         }
 
-        .background-image {
+        .background-image-desktop {
             margin: 0;
-            width: 600px;
+            width: 49.02%;//600px;
         }
     }
 }
 
 .get-book {
-    width: 1440px;
+    width: 100%;//1440px;
     height: 585px;
-    background: url("../img/get-book.png") no-repeat;
+    background: url("../img/get-book.png");
     background-color: $blueColor;
     padding-top: 80px;
 
     div {
         margin: auto;
-        width: 1224px;
+        width: 85%;//1224px;
         height: 428px;
         display: flex;
         justify-content: space-between;
 
         .get-book-form {
-            width: 600px;
+            width: 49.02%;//600px;
             height: 428px;
             display: flex;
             flex-direction: column;
@@ -848,22 +866,22 @@ body {
             }
 
             form {
-                width: 600px;
+                width: 100%;//600px;
                 height: 284px;
-                padding: 24px;
+                padding: 4%;//24px;
                 border-radius: 12px;
                 box-shadow: 0px 0px 24px 0px #00000029;
                 background-color: $whiteColor;
 
                 .inputs {
-                    width: 552px;
+                    width: 100%;//552px;
                     height: 172px;
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-between;
 
                     .input {
-                        width: 264px;
+                        width: 92%;//264px;
                         border: none;
                         border-bottom: 1px solid #bdbdbd;
                         line-height: 1.25;
@@ -871,7 +889,7 @@ body {
                     }
 
                     label {
-                        width: 264px;
+                        width: 50%;//264px;
                         height: 78px;
                         margin-top: 12px;
                         font-size: 13px;
@@ -883,7 +901,7 @@ body {
                     }
 
                     .email {
-                        width: 552px;
+                        width: 98%;//552px;
                     }
                 }
 
@@ -912,15 +930,15 @@ body {
 }
 
 .faq {
-    width: 1440px;
+    width: 100%;//1440px;
     height: 646px;
     padding-top: 80px;
     background-color: $whiteColor;
 
     h2 {
         margin: 0;
-        margin-left: 108px;
-        width: 600px;
+        margin-left: 7.5%;//108px;
+        width: 41.66%;//600px;
         height: 52px;
         font-size: 36px;
         font-weight: 700;
@@ -933,26 +951,26 @@ body {
     .items {
         display: flex;
         justify-content: space-between;
-        width: 1224px;
+        width: 85%;//1224px;
         height: 420px;
         gap: 24px;
         margin: auto;
         margin-top: 40px;
 
         .group-items {
-            width: 600px;
+            width: 49.02%;//600px;
             height: 420px;
             gap: 16px;
 
             .item {
-                width: 600px;
+                width: 100%;//600px;
                 height: 116px;
                 border-top: 1px solid #D0D5DD;
                 display: flex;
                 justify-content: space-between;
 
                 .content {
-                    width: 524px;
+                    width: 87.33%;//524px;
 
                     h3 {
                         margin: 0;
@@ -1011,10 +1029,10 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 1224px;
+        width: 85%;//1224px;
         height: 222px;
         margin: auto;
-        padding: 24px;
+        padding: 1.66%;//24px;
         border-radius: 12px;
         background-color: $darkblueColor;
         box-shadow: 0px 2px 24px 0px #00000014;
@@ -1036,12 +1054,12 @@ footer {
         }
 
         .items {
-            width: 1176px;
+            width: 96.08%;//1176px;
             height: 54px;
             display: flex;
 
             .item {
-                width: 294px;
+                width: 25%;//294px;
                 height: 54px;
                 display: flex;
                 flex-direction: column;
