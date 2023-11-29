@@ -847,6 +847,9 @@ body {
   margin: auto;
   margin-top: -46px;
 }
+.get-book div .image-tablet {
+  display: none;
+}
 
 .faq {
   width: 100%;
