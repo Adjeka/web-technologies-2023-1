@@ -186,6 +186,337 @@
         margin: 32px 0 0 4%;//17px;
     }
 
+    .list-industries {
+        height: 1622px;
+
+        h2 {
+            width: 380px;
+            margin-left: 16px;
+            margin-top: 31px;
+        }
+
+        .items {
+            width: 369px;
+            margin-top: 27px;
+            margin-left: 18px;
+    
+            .item {
+                p {
+                    width: 106px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .projects {
+            width: 100%;
+            height: 879px;
+            margin: 0;
+            margin-top: 32px;
+
+            h2 {
+                width: 340px;
+                height: 40px;
+                margin-top: 0;
+                margin-left: 16px;
+            }
+    
+            p {
+                width: 340px;
+                margin-top: 31px;
+                margin-left: 16px;
+            }
+
+            .list-with-button {
+                width: 390px;
+                margin-top: 32px;
+
+                .list-projects {
+                    width: 300px;
+                    flex-wrap: wrap;
+                    margin-left: 16px;
+
+                    p {
+                        margin: 11px 11px 0 0;
+                    }
+                }
+    
+                button {
+                    display: none;
+                }
+            }
+
+            .i-teka-mobile {
+                display: block;
+                width: 393px;
+                margin: auto;
+                margin-top: 32px;
+            }
+    
+            .content {
+                width: 100%;
+                height: 375px;
+                background: none;
+                margin-top: 32px;
+    
+                h2 {
+                    margin-left: 16px;
+                }
+    
+                .main-content {
+                    height: 315px;
+                    margin-top: 20px;
+
+                    p {
+                        width: 393px;
+                        margin: 0 30px;
+                    }
+    
+                    .location-industry, .users, .download {
+                        margin-left: 30px;
+                    }
+                }
+            }
+
+            .button-mobile {
+                display: block;
+                width: 258px;
+                height: 40px;
+                margin: auto;
+                margin-top: 32px;
+                border-radius: 8px;
+                border: none;
+                color: #FFFFFF;
+                background-color: #2D66EE;
+            }
+        }
+    }
+
+    .discuss {
+        height: 428px;
+    
+        div {
+            width: 78.125%;//600px;
+            height: 374px;
+            flex-direction: column;
+            margin: 0;
+            margin-top: 80px;
+            margin-left: 5%;//38px;
+    
+            .discription {
+                width: 57.33%;//344px;
+                margin-top: 22px;
+                margin-left: 6.33%;//38px;
+    
+                h2 {
+                    width: 56.68%;//195px;
+                    font-size: 28px;
+                }
+    
+                p {
+                    width: 100%;//344px;
+                    font-size: 14px;
+                }
+            }
+    
+            .discuss-form {
+                width: 78.125%;//600px;
+                margin-top: 32px;
+                padding: 3.125%;//24px;
+    
+                .inputs {
+                    flex-direction: row;
+                }
+    
+                .button {
+                    width: 178px;
+                }
+            }
+        }
+    }
+
+    .application-developments-stages {
+        div {
+            height: 1340px;
+    
+            h2 {
+                width: 78.125%;//600px;
+                font-size: 28px;
+                padding-top: 32px;
+                margin-left: 5.08%;//39px;
+            }
+    
+            .cards {
+                width: 87.63%;//673px;
+                height: 1192px;
+                flex-direction: column;
+                margin-left: 5.08%;//39px;
+    
+                .group-cards {
+                    width: 100%;
+                    height: 580px;
+    
+                    .card {
+                        padding: 24px 0 0 3.57%;//24px;
+    
+                        p {
+                            width: 74.89%;//504px;
+                            margin-top: 16px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .our-team {
+        height: 884px;
+    
+        div {
+            width: 91.66%;//704px;
+            height: 794px;
+            margin: auto;
+            margin-top: 38px;
+    
+            .discription {
+                width: 100%;
+                height: 100%;
+    
+                h2 {
+                    height: 40px;
+                    font-size: 28px;
+                }
+    
+                p {
+                    width: 58.95%;//415px;
+                    font-size: 14px;
+                }
+
+                .background-image-tablet {
+                    display: block;
+                    width: 100%;//704px;
+                    height: 421px;
+                    margin: 0;
+                }
+    
+                .items {
+                    width: 584px;
+                    margin-left: 4.54%;//32px;
+    
+                    .item {
+                        width: 31.5%;//184px;
+                    }
+                }
+
+                .another-p {
+                    width: 614px;
+                    margin-left: 4.54%;//32px;
+                }
+            }
+    
+            .background-image-desktop {
+                display: none;
+            }
+        }
+    }
+
+    .get-book {
+        height: 724px;
+        padding-top: 76px;
+    
+        div {
+    
+            .get-book-form {
+                height: 564px;
+    
+                h2 {
+                    width: 455px;
+                    font-size: 28px;
+                }
+    
+                form {
+                    width: 90%;//335px;
+                    height: 431px;
+    
+                    .inputs {
+                        width: 90%;//271px;
+                        height: 320px;
+                        margin-top: 25px;
+    
+                        label {
+                            width: 100%;
+                            height: 86px;
+                            font-size: 13px;
+                        }
+    
+                        .email {
+                            width: 96%;
+                        }
+                    }
+    
+                    .button {
+                        float: left;
+                        margin: 0 0 0 18.5px;
+                    }
+                }
+            }
+    
+            .image {
+                display: none;
+            }
+
+            .image-tablet {
+                display: block;
+
+                img {
+                    margin-left: 15%;//51px;
+                    margin-top: 130px;
+                }
+            }
+        }
+    }
+    
+    .faq {
+        height: 778px;
+        padding-top: 20px;
+    
+        h2 {
+            font-size: 28px;
+            margin-left: 4.6875%;//36px;
+        }
+    
+        .items {
+            flex-direction: column;
+            width: 78.125%;//600px;
+            height: 652px;
+            grid-gap: 0;
+            margin-top: 32px;
+    
+            .group-items {
+                width: 100%;
+    
+                .item {
+                    .content {
+                        width: fit-content;
+    
+                        h3 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+    
+                .open-item {
+                    .content {
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     footer {
         height: 82.35%;//350px;
         padding: 0;

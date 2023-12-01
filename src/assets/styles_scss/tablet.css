@@ -253,11 +253,11 @@ html {
     height: 1338px;
   }
   .list-industries h2 {
-    width: 380px;
+    width: 49.48%;
     font-size: 28px;
   }
   .list-industries .items {
-    width: 601px;
+    width: 78.25%;
     height: 457px;
   }
   .list-industries .items .item {
@@ -268,11 +268,11 @@ html {
     width: 92%;
   }
   .list-industries .projects h2 {
-    width: 600px;
+    width: 84.98%;
     font-size: 28px;
   }
   .list-industries .projects p {
-    width: 456px;
+    width: 76%;
     font-size: 14px;
   }
   .list-industries .projects .list-with-button {
@@ -280,7 +280,7 @@ html {
     margin-top: 26px;
   }
   .list-industries .projects .list-with-button .list-projects {
-    width: 678px;
+    width: 96%;
   }
   .list-industries .projects .list-with-button button {
     width: 207px;
@@ -299,7 +299,7 @@ html {
     width: 100%;
   }
   .list-industries .projects .content .main-content p {
-    width: 459px;
+    width: 70.3%;
     font-size: 14px;
   }
   .list-industries .projects .content .main-content .developments p {
@@ -321,40 +321,33 @@ html {
     height: 428px;
   }
   .discuss div {
-    width: 600px;
+    width: 78.125%;
     height: 374px;
     flex-direction: column;
     margin: 0;
     margin-top: 80px;
-    margin-left: 38px;
+    margin-left: 5%;
   }
   .discuss div .discription {
-    width: 344px;
+    width: 57.33%;
     margin-top: 22px;
-    margin-left: 38px;
+    margin-left: 6.33%;
   }
   .discuss div .discription h2 {
-    width: 195px;
+    width: 56.68%;
     font-size: 28px;
   }
   .discuss div .discription p {
-    width: 344px;
+    width: 100%;
     font-size: 14px;
   }
   .discuss div .discuss-form {
-    width: 600px;
+    width: 78.125%;
     margin-top: 32px;
-    padding: 24px;
+    padding: 3.125%;
   }
   .discuss div .discuss-form .inputs {
-    width: 552px;
     flex-direction: row;
-  }
-  .discuss div .discuss-form .inputs .input {
-    width: 264px;
-  }
-  .discuss div .discuss-form .inputs label {
-    width: 264px;
   }
   .discuss div .discuss-form .button {
     width: 178px;
@@ -363,26 +356,26 @@ html {
     height: 1340px;
   }
   .application-developments-stages div h2 {
-    width: 600px;
+    width: 78.125%;
     font-size: 28px;
     padding-top: 32px;
-    margin-left: 39px;
+    margin-left: 5.08%;
   }
   .application-developments-stages div .cards {
-    width: 673px;
+    width: 87.63%;
     height: 1192px;
     flex-direction: column;
-    margin-left: 39px;
+    margin-left: 5.08%;
   }
   .application-developments-stages div .cards .group-cards {
     width: 100%;
     height: 580px;
   }
   .application-developments-stages div .cards .group-cards .card {
-    padding: 24px 0 0 24px;
+    padding: 24px 0 0 3.57%;
   }
   .application-developments-stages div .cards .group-cards .card p {
-    width: 504px;
+    width: 74.89%;
     margin-top: 16px;
     font-size: 14px;
   }
@@ -390,7 +383,7 @@ html {
     height: 884px;
   }
   .our-team div {
-    width: 704px;
+    width: 91.66%;
     height: 794px;
     margin: auto;
     margin-top: 38px;
@@ -404,25 +397,25 @@ html {
     font-size: 28px;
   }
   .our-team div .discription p {
-    width: 415px;
+    width: 58.95%;
     font-size: 14px;
   }
   .our-team div .discription .background-image-tablet {
     display: block;
-    width: 704px;
+    width: 100%;
     height: 421px;
     margin: 0;
   }
   .our-team div .discription .items {
     width: 584px;
-    margin-left: 32px;
+    margin-left: 4.54%;
   }
   .our-team div .discription .items .item {
-    width: 184px;
+    width: 31.5%;
   }
   .our-team div .discription .another-p {
     width: 614px;
-    margin-left: 32px;
+    margin-left: 4.54%;
   }
   .our-team div .background-image-desktop {
     display: none;
@@ -439,11 +432,11 @@ html {
     font-size: 28px;
   }
   .get-book div .get-book-form form {
-    width: 335px;
+    width: 90%;
     height: 431px;
   }
   .get-book div .get-book-form form .inputs {
-    width: 271px;
+    width: 90%;
     height: 320px;
     margin-top: 25px;
   }
@@ -466,11 +459,30 @@ html {
     display: block;
   }
   .get-book div .image-tablet img {
-    margin-left: 51px;
+    margin-left: 15%;
     margin-top: 130px;
   }
+  .faq {
+    height: 778px;
+    padding-top: 20px;
+  }
   .faq h2 {
-    font-size: 36px;
+    font-size: 28px;
+    margin-left: 4.6875%;
+  }
+  .faq .items {
+    flex-direction: column;
+    width: 78.125%;
+    height: 652px;
+    grid-gap: 0;
+    margin-top: 32px;
+  }
+  .faq .items .group-items {
+    width: 100%;
+  }
+  .faq .items .group-items .item .content {
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .faq .items .group-items .item .content h3 {
     font-size: 20px;

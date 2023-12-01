@@ -258,12 +258,12 @@
         height: 1338px;
 
         h2 {
-            width: 380px;
+            width: 49.48%; //380px;
             font-size: 28px;
         }
 
         .items {
-            width: 601px;
+            width: 78.25%;//601px;
             height: 457px;
     
             .item {
@@ -275,12 +275,12 @@
             width: 92%;
 
             h2 {
-                width: 600px;
+                width: 84.98%;//600px;
                 font-size: 28px;
             }
     
             p {
-                width: 456px;
+                width: 76%;//456px;
                 font-size: 14px;
             }
 
@@ -289,7 +289,7 @@
                 margin-top: 26px;
 
                 .list-projects {
-                    width: 678px;
+                    width: 96%;//678px;
                 }
     
                 button {
@@ -309,9 +309,9 @@
                 }
     
                 .main-content {
-                    width: 100%;//800px
+                    width: 100%;
                     p {
-                        width: 459px;
+                        width: 70.3%;//459px;
                         font-size: 14px;
                     }
     
@@ -347,45 +347,36 @@
         height: 428px;
     
         div {
-            width: 600px;
+            width: 78.125%;//600px;
             height: 374px;
             flex-direction: column;
             margin: 0;
             margin-top: 80px;
-            margin-left: 38px;
+            margin-left: 5%;//38px;
     
             .discription {
-                width: 344px;
+                width: 57.33%;//344px;
                 margin-top: 22px;
-                margin-left: 38px;
+                margin-left: 6.33%;//38px;
     
                 h2 {
-                    width: 195px;
+                    width: 56.68%;//195px;
                     font-size: 28px;
                 }
     
                 p {
-                    width: 344px;
+                    width: 100%;//344px;
                     font-size: 14px;
                 }
             }
     
             .discuss-form {
-                width: 600px;
+                width: 78.125%;//600px;
                 margin-top: 32px;
-                padding: 24px;
+                padding: 3.125%;//24px;
     
                 .inputs {
-                    width: 552px;
                     flex-direction: row;
-    
-                    .input {
-                        width: 264px;
-                    }
-    
-                    label {
-                        width: 264px;
-                    }
                 }
     
                 .button {
@@ -400,27 +391,27 @@
             height: 1340px;
     
             h2 {
-                width: 600px;
+                width: 78.125%;//600px;
                 font-size: 28px;
                 padding-top: 32px;
-                margin-left: 39px;
+                margin-left: 5.08%;//39px;
             }
     
             .cards {
-                width: 673px;
+                width: 87.63%;//673px;
                 height: 1192px;
                 flex-direction: column;
-                margin-left: 39px;
+                margin-left: 5.08%;//39px;
     
                 .group-cards {
                     width: 100%;
                     height: 580px;
     
                     .card {
-                        padding: 24px 0 0 24px;
+                        padding: 24px 0 0 3.57%;//24px;
     
                         p {
-                            width: 504px;
+                            width: 74.89%;//504px;
                             margin-top: 16px;
                             font-size: 14px;
                         }
@@ -434,7 +425,7 @@
         height: 884px;
     
         div {
-            width: 704px;
+            width: 91.66%;//704px;
             height: 794px;
             margin: auto;
             margin-top: 38px;
@@ -449,29 +440,29 @@
                 }
     
                 p {
-                    width: 415px;
+                    width: 58.95%;//415px;
                     font-size: 14px;
                 }
 
                 .background-image-tablet {
                     display: block;
-                    width: 704px;
+                    width: 100%;//704px;
                     height: 421px;
                     margin: 0;
                 }
     
                 .items {
                     width: 584px;
-                    margin-left: 32px;
+                    margin-left: 4.54%;//32px;
     
                     .item {
-                        width: 184px;
+                        width: 31.5%;//184px;
                     }
                 }
 
                 .another-p {
                     width: 614px;
-                    margin-left: 32px;
+                    margin-left: 4.54%;//32px;
                 }
             }
     
@@ -486,7 +477,6 @@
         padding-top: 76px;
     
         div {
-            
     
             .get-book-form {
                 height: 564px;
@@ -497,11 +487,11 @@
                 }
     
                 form {
-                    width: 335px;
+                    width: 90%;//335px;
                     height: 431px;
     
                     .inputs {
-                        width: 271px;
+                        width: 90%;//271px;
                         height: 320px;
                         margin-top: 25px;
     
@@ -531,7 +521,7 @@
                 display: block;
 
                 img {
-                    margin-left: 51px;
+                    margin-left: 15%;//51px;
                     margin-top: 130px;
                 }
             }
@@ -539,24 +529,27 @@
     }
     
     .faq {
-        
+        height: 778px;
+        padding-top: 20px;
     
         h2 {
-            font-size: 36px;
-
+            font-size: 28px;
+            margin-left: 4.6875%;//36px;
         }
     
         .items {
-            
+            flex-direction: column;
+            width: 78.125%;//600px;
+            height: 652px;
+            grid-gap: 0;
+            margin-top: 32px;
     
             .group-items {
-
+                width: 100%;
     
                 .item {
-
-    
                     .content {
-
+                        width: fit-content;
     
                         h3 {
                             font-size: 20px;
@@ -565,15 +558,9 @@
                 }
     
                 .open-item {
-    
                     .content {
-    
                         p {
                             font-size: 16px;
-                        }
-    
-                        h3 {
-                            
                         }
                     }
                 }

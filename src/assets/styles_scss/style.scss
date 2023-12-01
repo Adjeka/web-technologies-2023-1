@@ -463,6 +463,10 @@ body {
             }
         }
 
+        .i-teka-mobile {
+            display: none;
+        }
+
         .content {
             background: url("../img/i-teka.png") no-repeat top right;
             margin-top: 40px;
@@ -574,6 +578,10 @@ body {
                     height: 40px;
                 }
             }
+        }
+
+        .button-mobile {
+            display: none;
         }
     }
 }
@@ -963,7 +971,7 @@ body {
 
         .group-items {
             width: 49.02%;//600px;
-            height: 420px;
+            height: fit-content;
             gap: 16px;
 
             .item {
