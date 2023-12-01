@@ -190,19 +190,19 @@
         height: 1622px;
 
         h2 {
-            width: 380px;
-            margin-left: 16px;
+            width: 89.41%;//380px;
+            margin-left: 3.76%;//16px;
             margin-top: 31px;
         }
 
         .items {
-            width: 369px;
+            width: 89.82%;//369px;
             margin-top: 27px;
-            margin-left: 18px;
+            margin-left: 4.23%;//18px;
     
             .item {
                 p {
-                    width: 106px;
+                    width: 28.73%;//106px;
                     font-size: 14px;
                 }
             }
@@ -215,26 +215,26 @@
             margin-top: 32px;
 
             h2 {
-                width: 340px;
+                width: 80%;//340px;
                 height: 40px;
                 margin-top: 0;
-                margin-left: 16px;
+                margin-left: 3.76%;//16px;
             }
     
             p {
-                width: 340px;
+                width: 80%;//340px;
                 margin-top: 31px;
-                margin-left: 16px;
+                margin-left: 3.76%;//16px;
             }
 
             .list-with-button {
-                width: 390px;
+                width: 91.76%;//390px;
                 margin-top: 32px;
 
                 .list-projects {
-                    width: 300px;
+                    width: 76.92%;//300px;
                     flex-wrap: wrap;
-                    margin-left: 16px;
+                    margin-left: 4.1%;//16px;
 
                     p {
                         margin: 11px 11px 0 0;
@@ -248,7 +248,7 @@
 
             .i-teka-mobile {
                 display: block;
-                width: 393px;
+                width: 92.47%;//393px;
                 margin: auto;
                 margin-top: 32px;
             }
@@ -260,7 +260,7 @@
                 margin-top: 32px;
     
                 h2 {
-                    margin-left: 16px;
+                    margin-left: 3.76%;//16px;
                 }
     
                 .main-content {
@@ -268,12 +268,12 @@
                     margin-top: 20px;
 
                     p {
-                        width: 393px;
-                        margin: 0 30px;
+                        width: 92.47%;//393px;
+                        margin: 0 7.06%;//30px;
                     }
     
                     .location-industry, .users, .download {
-                        margin-left: 30px;
+                        margin-left: 7.06%;//30px;
                     }
                 }
             }
@@ -293,43 +293,55 @@
     }
 
     .discuss {
-        height: 428px;
+        height: 541px;
     
         div {
-            width: 78.125%;//600px;
-            height: 374px;
-            flex-direction: column;
+            width: 100%;
+            height: 541px;
             margin: 0;
-            margin-top: 80px;
-            margin-left: 5%;//38px;
     
             .discription {
-                width: 57.33%;//344px;
-                margin-top: 22px;
-                margin-left: 6.33%;//38px;
+                width: 80.94%;//344px;
+                margin-top: 34px;
+                margin-left:  3.76%;//16px;
     
                 h2 {
                     width: 56.68%;//195px;
-                    font-size: 28px;
-                }
-    
-                p {
-                    width: 100%;//344px;
-                    font-size: 14px;
                 }
             }
     
             .discuss-form {
-                width: 78.125%;//600px;
-                margin-top: 32px;
-                padding: 3.125%;//24px;
-    
-                .inputs {
-                    flex-direction: row;
-                }
-    
-                .button {
-                    width: 178px;
+                width: 92.47%;//393px;
+                height: 300px;
+                margin: auto;
+                margin-top: 20px;
+                padding: 36px 4%;//17px;
+
+                form {
+                    width: 91.09%;//358px;
+                    height: 228px;
+
+                    .inputs {
+                        flex-direction: column;
+                        width: 100%;
+                        height: 172px;
+
+                        label {
+                            width: 100%;
+                            height: 78px;
+                            margin: 0;
+                        }
+
+                        .input {
+                            width: 100%;
+                        }
+                    }
+        
+                    .button {
+                        float: none;
+                        width: 255px;
+                        margin: 16px 52px;
+                    }
                 }
             }
         }
@@ -340,24 +352,21 @@
             height: 1340px;
     
             h2 {
-                width: 78.125%;//600px;
-                font-size: 28px;
-                padding-top: 32px;
-                margin-left: 5.08%;//39px;
+                width: 374px;
+                margin-left: 19px;
             }
     
             .cards {
-                width: 87.63%;//673px;
+                width: 88%;//394px;
                 height: 1192px;
-                flex-direction: column;
-                margin-left: 5.08%;//39px;
+                margin: auto;
     
                 .group-cards {
                     width: 100%;
                     height: 580px;
     
                     .card {
-                        padding: 24px 0 0 3.57%;//24px;
+                        padding: 24px 0 0 6.09%;//24px;
     
                         p {
                             width: 74.89%;//504px;
@@ -371,47 +380,66 @@
     }
 
     .our-team {
-        height: 884px;
+        height: 646px;
     
         div {
-            width: 91.66%;//704px;
-            height: 794px;
-            margin: auto;
-            margin-top: 38px;
+            width: 100%;
+            height: 100%;
+            margin: 0;
     
             .discription {
                 width: 100%;
-                height: 100%;
+                height: 616px;
+                justify-content: space-between;
     
                 h2 {
-                    height: 40px;
-                    font-size: 28px;
+                    margin-left: 16px;
+                    margin-top: 28px;
                 }
     
                 p {
-                    width: 58.95%;//415px;
-                    font-size: 14px;
+                    width: 88.47%;//376px;
+                    height: 60px;
+                    margin-left: 3.76%;//16px;
                 }
 
                 .background-image-tablet {
                     display: block;
-                    width: 100%;//704px;
-                    height: 421px;
-                    margin: 0;
+                    width: fit-content;
+                    height: fit-content;
+                    margin: 0 auto;
+
+                    img {
+                        height: 263px;
+                    }
                 }
     
                 .items {
-                    width: 584px;
-                    margin-left: 4.54%;//32px;
+                    width: 88%;//374px;
+                    height: 58px;
+                    margin-left: 4%;//17px;
     
                     .item {
-                        width: 31.5%;//184px;
+                        height: 100%;
+                        margin: 0;
+                        
+                        span {
+                            font-size: 28px;
+                            height: 24px;
+                            line-height: normal;
+                        }
+
+                        p {
+                            height: 14px;
+                            margin: 0;
+                            font-size: 14px;
+                        }
                     }
                 }
 
                 .another-p {
-                    width: 614px;
-                    margin-left: 4.54%;//32px;
+                    width: 84.47%;//359px;
+                    margin-left: 4%;//17px;
                 }
             }
     
@@ -422,42 +450,54 @@
     }
 
     .get-book {
-        height: 724px;
-        padding-top: 76px;
+        height: 923px;
+        padding: 0;
     
         div {
-    
+            width: 100%;
+            height: 100%;
+
             .get-book-form {
-                height: 564px;
+                width: 100%;
+                height: 100%;
     
                 h2 {
-                    width: 455px;
-                    font-size: 28px;
+                    width: 78.35%;//333px;
+                    height: 80px;
+                    margin: auto;
+                    margin-top: 49px;
+                    line-height: 40px;
+                }
+
+                .image-mobile {
+                    display: block;
+                    width: fit-content;
+                    height: fit-content;
+
+                    img {
+                        width: 200px;
+                        margin: auto;
+                    }
                 }
     
                 form {
-                    width: 90%;//335px;
+                    width: 78.82%;//335px;
                     height: 431px;
+                    margin: auto;
+                    padding: 32px 7.53%;//32px;
     
                     .inputs {
-                        width: 90%;//271px;
+                        width: 100%;//271px;
                         height: 320px;
-                        margin-top: 25px;
+                        margin: 0;
     
                         label {
-                            width: 100%;
-                            height: 86px;
-                            font-size: 13px;
-                        }
-    
-                        .email {
-                            width: 96%;
+                            margin: 0;
                         }
                     }
     
                     .button {
-                        float: left;
-                        margin: 0 0 0 18.5px;
+                        margin: 0;
                     }
                 }
             }
@@ -467,34 +507,32 @@
             }
 
             .image-tablet {
-                display: block;
-
-                img {
-                    margin-left: 15%;//51px;
-                    margin-top: 130px;
-                }
+                display: none;
             }
         }
     }
     
     .faq {
-        height: 778px;
+        height: fit-content;
         padding-top: 20px;
     
         h2 {
             font-size: 28px;
-            margin-left: 4.6875%;//36px;
+            height: 40px;
+            margin-left: 5%;//16px;
         }
     
         .items {
             flex-direction: column;
-            width: 78.125%;//600px;
-            height: 652px;
+            width: 92.47%;//393px;
+            height: fit-content;
             grid-gap: 0;
             margin-top: 32px;
+            padding-bottom: 32px;
     
             .group-items {
                 width: 100%;
+                height: fit-content;
     
                 .item {
                     .content {
@@ -502,14 +540,24 @@
     
                         h3 {
                             font-size: 20px;
+                            margin: 32px 0;
                         }
                     }
                 }
     
                 .open-item {
+                    height: fit-content;
+
                     .content {
+                        h3 {
+                            margin: 0;
+                            margin: 10px 0 32px 0;
+                        }
+
                         p {
                             font-size: 16px;
+                            margin: 0;
+                            margin-bottom: 24px;
                         }
                     }
                 }

@@ -753,7 +753,6 @@ body {
 .our-team div .discription .items .item span {
   font-size: 48px;
   font-weight: 700;
-  line-height: 69px;
   letter-spacing: 0.3264510036px;
   text-align: left;
   color: #101828;
@@ -800,6 +799,9 @@ body {
   line-height: 52px;
   letter-spacing: 0.3264510036px;
   text-align: left;
+}
+.get-book div .get-book-form .image-mobile {
+  display: none;
 }
 .get-book div .get-book-form form {
   width: 100%;

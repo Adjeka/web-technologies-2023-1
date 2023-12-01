@@ -191,17 +191,17 @@ html {
     height: 1622px;
   }
   .list-industries h2 {
-    width: 380px;
-    margin-left: 16px;
+    width: 89.41%;
+    margin-left: 3.76%;
     margin-top: 31px;
   }
   .list-industries .items {
-    width: 369px;
+    width: 89.82%;
     margin-top: 27px;
-    margin-left: 18px;
+    margin-left: 4.23%;
   }
   .list-industries .items .item p {
-    width: 106px;
+    width: 28.73%;
     font-size: 14px;
   }
   .list-industries .projects {
@@ -211,24 +211,24 @@ html {
     margin-top: 32px;
   }
   .list-industries .projects h2 {
-    width: 340px;
+    width: 80%;
     height: 40px;
     margin-top: 0;
-    margin-left: 16px;
+    margin-left: 3.76%;
   }
   .list-industries .projects p {
-    width: 340px;
+    width: 80%;
     margin-top: 31px;
-    margin-left: 16px;
+    margin-left: 3.76%;
   }
   .list-industries .projects .list-with-button {
-    width: 390px;
+    width: 91.76%;
     margin-top: 32px;
   }
   .list-industries .projects .list-with-button .list-projects {
-    width: 300px;
+    width: 76.92%;
     flex-wrap: wrap;
-    margin-left: 16px;
+    margin-left: 4.1%;
   }
   .list-industries .projects .list-with-button .list-projects p {
     margin: 11px 11px 0 0;
@@ -238,7 +238,7 @@ html {
   }
   .list-industries .projects .i-teka-mobile {
     display: block;
-    width: 393px;
+    width: 92.47%;
     margin: auto;
     margin-top: 32px;
   }
@@ -249,18 +249,18 @@ html {
     margin-top: 32px;
   }
   .list-industries .projects .content h2 {
-    margin-left: 16px;
+    margin-left: 3.76%;
   }
   .list-industries .projects .content .main-content {
     height: 315px;
     margin-top: 20px;
   }
   .list-industries .projects .content .main-content p {
-    width: 393px;
-    margin: 0 30px;
+    width: 92.47%;
+    margin: 0 7.06%;
   }
   .list-industries .projects .content .main-content .location-industry, .list-industries .projects .content .main-content .users, .list-industries .projects .content .main-content .download {
-    margin-left: 30px;
+    margin-left: 7.06%;
   }
   .list-industries .projects .button-mobile {
     display: block;
@@ -274,61 +274,68 @@ html {
     background-color: #2D66EE;
   }
   .discuss {
-    height: 428px;
+    height: 541px;
   }
   .discuss div {
-    width: 78.125%;
-    height: 374px;
-    flex-direction: column;
+    width: 100%;
+    height: 541px;
     margin: 0;
-    margin-top: 80px;
-    margin-left: 5%;
   }
   .discuss div .discription {
-    width: 57.33%;
-    margin-top: 22px;
-    margin-left: 6.33%;
+    width: 80.94%;
+    margin-top: 34px;
+    margin-left: 3.76%;
   }
   .discuss div .discription h2 {
     width: 56.68%;
-    font-size: 28px;
-  }
-  .discuss div .discription p {
-    width: 100%;
-    font-size: 14px;
   }
   .discuss div .discuss-form {
-    width: 78.125%;
-    margin-top: 32px;
-    padding: 3.125%;
+    width: 92.47%;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 36px 4%;
   }
-  .discuss div .discuss-form .inputs {
-    flex-direction: row;
+  .discuss div .discuss-form form {
+    width: 91.09%;
+    height: 228px;
   }
-  .discuss div .discuss-form .button {
-    width: 178px;
+  .discuss div .discuss-form form .inputs {
+    flex-direction: column;
+    width: 100%;
+    height: 172px;
+  }
+  .discuss div .discuss-form form .inputs label {
+    width: 100%;
+    height: 78px;
+    margin: 0;
+  }
+  .discuss div .discuss-form form .inputs .input {
+    width: 100%;
+  }
+  .discuss div .discuss-form form .button {
+    float: none;
+    width: 255px;
+    margin: 16px 52px;
   }
   .application-developments-stages div {
     height: 1340px;
   }
   .application-developments-stages div h2 {
-    width: 78.125%;
-    font-size: 28px;
-    padding-top: 32px;
-    margin-left: 5.08%;
+    width: 374px;
+    margin-left: 19px;
   }
   .application-developments-stages div .cards {
-    width: 87.63%;
+    width: 88%;
     height: 1192px;
-    flex-direction: column;
-    margin-left: 5.08%;
+    margin: auto;
   }
   .application-developments-stages div .cards .group-cards {
     width: 100%;
     height: 580px;
   }
   .application-developments-stages div .cards .group-cards .card {
-    padding: 24px 0 0 3.57%;
+    padding: 24px 0 0 6.09%;
   }
   .application-developments-stages div .cards .group-cards .card p {
     width: 74.89%;
@@ -336,105 +343,140 @@ html {
     font-size: 14px;
   }
   .our-team {
-    height: 884px;
+    height: 646px;
   }
   .our-team div {
-    width: 91.66%;
-    height: 794px;
-    margin: auto;
-    margin-top: 38px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
   }
   .our-team div .discription {
     width: 100%;
-    height: 100%;
+    height: 616px;
+    justify-content: space-between;
   }
   .our-team div .discription h2 {
-    height: 40px;
-    font-size: 28px;
+    margin-left: 16px;
+    margin-top: 28px;
   }
   .our-team div .discription p {
-    width: 58.95%;
-    font-size: 14px;
+    width: 88.47%;
+    height: 60px;
+    margin-left: 3.76%;
   }
   .our-team div .discription .background-image-tablet {
     display: block;
-    width: 100%;
-    height: 421px;
-    margin: 0;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0 auto;
+  }
+  .our-team div .discription .background-image-tablet img {
+    height: 263px;
   }
   .our-team div .discription .items {
-    width: 584px;
-    margin-left: 4.54%;
+    width: 88%;
+    height: 58px;
+    margin-left: 4%;
   }
   .our-team div .discription .items .item {
-    width: 31.5%;
+    height: 100%;
+    margin: 0;
+  }
+  .our-team div .discription .items .item span {
+    font-size: 28px;
+    height: 24px;
+    line-height: normal;
+  }
+  .our-team div .discription .items .item p {
+    height: 14px;
+    margin: 0;
+    font-size: 14px;
   }
   .our-team div .discription .another-p {
-    width: 614px;
-    margin-left: 4.54%;
+    width: 84.47%;
+    margin-left: 4%;
   }
   .our-team div .background-image-desktop {
     display: none;
   }
   .get-book {
-    height: 724px;
-    padding-top: 76px;
+    height: 923px;
+    padding: 0;
+  }
+  .get-book div {
+    width: 100%;
+    height: 100%;
   }
   .get-book div .get-book-form {
-    height: 564px;
+    width: 100%;
+    height: 100%;
   }
   .get-book div .get-book-form h2 {
-    width: 455px;
-    font-size: 28px;
+    width: 78.35%;
+    height: 80px;
+    margin: auto;
+    margin-top: 49px;
+    line-height: 40px;
+  }
+  .get-book div .get-book-form .image-mobile {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .get-book div .get-book-form .image-mobile img {
+    width: 200px;
+    margin: auto;
   }
   .get-book div .get-book-form form {
-    width: 90%;
+    width: 78.82%;
     height: 431px;
+    margin: auto;
+    padding: 32px 7.53%;
   }
   .get-book div .get-book-form form .inputs {
-    width: 90%;
+    width: 100%;
     height: 320px;
-    margin-top: 25px;
+    margin: 0;
   }
   .get-book div .get-book-form form .inputs label {
-    width: 100%;
-    height: 86px;
-    font-size: 13px;
-  }
-  .get-book div .get-book-form form .inputs .email {
-    width: 96%;
+    margin: 0;
   }
   .get-book div .get-book-form form .button {
-    float: left;
-    margin: 0 0 0 18.5px;
+    margin: 0;
   }
   .get-book div .image {
     display: none;
   }
   .get-book div .image-tablet {
-    display: block;
-  }
-  .get-book div .image-tablet img {
-    margin-left: 15%;
-    margin-top: 130px;
+    display: none;
   }
   .faq {
-    height: 778px;
+    height: -moz-fit-content;
+    height: fit-content;
     padding-top: 20px;
   }
   .faq h2 {
     font-size: 28px;
-    margin-left: 4.6875%;
+    height: 40px;
+    margin-left: 5%;
   }
   .faq .items {
     flex-direction: column;
-    width: 78.125%;
-    height: 652px;
+    width: 92.47%;
+    height: -moz-fit-content;
+    height: fit-content;
     grid-gap: 0;
     margin-top: 32px;
+    padding-bottom: 32px;
   }
   .faq .items .group-items {
     width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .faq .items .group-items .item .content {
     width: -moz-fit-content;
@@ -442,9 +484,20 @@ html {
   }
   .faq .items .group-items .item .content h3 {
     font-size: 20px;
+    margin: 32px 0;
+  }
+  .faq .items .group-items .open-item {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .faq .items .group-items .open-item .content h3 {
+    margin: 0;
+    margin: 10px 0 32px 0;
   }
   .faq .items .group-items .open-item .content p {
     font-size: 16px;
+    margin: 0;
+    margin-bottom: 24px;
   }
   footer {
     height: 82.35%;

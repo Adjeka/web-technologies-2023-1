@@ -817,7 +817,6 @@ body {
                     span {
                         font-size: 48px;
                         font-weight: 700;
-                        line-height: 69px;
                         letter-spacing: 0.32645100355148315px;
                         text-align: left;
                         color: $darkblueColor;
@@ -871,6 +870,10 @@ body {
                 line-height: 52px;
                 letter-spacing: 0.32645100355148315px;
                 text-align: left;
+            }
+
+            .image-mobile {
+                display: none;
             }
 
             form {
