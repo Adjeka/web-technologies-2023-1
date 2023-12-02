@@ -188,7 +188,9 @@ html {
     margin: 32px 0 0 4%;
   }
   .list-industries {
-    height: 1622px;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 50px;
   }
   .list-industries h2 {
     width: 89.41%;
@@ -206,7 +208,8 @@ html {
   }
   .list-industries .projects {
     width: 100%;
-    height: 879px;
+    height: -moz-fit-content;
+    height: fit-content;
     margin: 0;
     margin-top: 32px;
   }
@@ -244,7 +247,8 @@ html {
   }
   .list-industries .projects .content {
     width: 100%;
-    height: 375px;
+    height: -moz-fit-content;
+    height: fit-content;
     background: none;
     margin-top: 32px;
   }
