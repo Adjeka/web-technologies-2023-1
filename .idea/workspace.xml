@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17e18013-9388-466b-a30b-9e941925d7f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web-technologies-2022-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/utils.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Inter-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Inter-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Inter-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Inter-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Inter-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/Inter-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -53,7 +33,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Gemeni/Downloads/php-debug-pack-8.3.8-Win32-vs16-x64",
+    "last_opened_file_path": "C:/php/php.exe",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717792903805</updated>
       <workItem from="1717792904752" duration="55000" />
-      <workItem from="1717793009317" duration="5368000" />
+      <workItem from="1717793009317" duration="8584000" />
     </task>
     <servers />
   </component>
