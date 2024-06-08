@@ -6,3 +6,29 @@
 @import "./form.css";
 @import "./text-field.css";
 @import "./button.css";
+
+.todos {
+    width: 60%;
+    margin: auto;
+}
+
+.main {
+    width: fit-content;
+    margin: auto;
+    padding: 25px 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.todo-item span {
+    width: 150px;
+}
+
+.todo-item .id {
+    width: 50px;
+}
